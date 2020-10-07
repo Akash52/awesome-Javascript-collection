@@ -3,12 +3,12 @@
     "template": {
         "image_link": "<link-to-your-avatar>",
         "handle": "<your-github-handle",
-        "message": "<your-message-to-the-community>"
+        "message": "<Live-Demo-Link>"
     },
     "profiles": [{
             "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
             "handle": "Abha2001",
-            "message": "Welcome to Hacktober Fest 2020!"
+            "message": "https://en.wikipedia.org/wiki/Indian_peafowl"
         }
 
     ]

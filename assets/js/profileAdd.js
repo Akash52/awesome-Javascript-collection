@@ -40,7 +40,7 @@ $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/d
                         <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full mx-auto" style="max-width: 300px;" />
                         <div class="pt-6 text-center">
                 
-                            <span><i class="fas fa-eye"></i><a href="https://en.wikipedia.org/wiki/Indian_peafowl" target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
+                            <span><i class="fas fa-eye"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
                             <span> <i class="fab fa-github"></i><a href="https://en.wikipedia.org/wiki/Indian_peafowl" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
                         </div>
                     </div>  
