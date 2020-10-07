@@ -41,7 +41,7 @@ $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/d
                         <div class="pt-6 text-center">
                 
                             <span><i class="fas fa-eye"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
-                            <span> <i class="fab fa-github"></i><a href="${profile.message}" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
+                            <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
                         </div>
                     </div>  
                 </div>
