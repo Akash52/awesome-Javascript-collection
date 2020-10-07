@@ -3,12 +3,14 @@
     "template": {
         "image_link": "<link-to-your-avatar>",
         "handle": "<your-github-handle",
-        "message": "<Live-Demo-Link>"
+        "message": "<Live-Demo-Link>",
+        "message1": "<Repository-Link>"
     },
     "profiles": [{
             "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
             "handle": "Abha2001",
-            "message": "https://en.wikipedia.org/wiki/Indian_peafowl"
+            "message": "https://en.wikipedia.org/wiki/Indian_peafowl",
+            "message1": "https://en.wikipedia.org/wiki/Indian_peafowl"
         }
 
     ]
