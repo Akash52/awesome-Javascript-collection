@@ -1,7 +1,7 @@
 $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/data.json', (data) => {
 
     console.log(data); // this will show the info it in firebug console
-    let profileKeys = ['handle', 'image_link', 'message'];
+    let profileKeys = ['handle', 'image_link', 'message', 'message1'];
     /**
      * Check if a profile has handle image_link and message properties
      */
@@ -41,7 +41,7 @@ $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/d
                         <div class="pt-6 text-center">
                 
                             <span><i class="fas fa-eye"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
-                            <span> <i class="fab fa-github"></i><a href="https://en.wikipedia.org/wiki/Indian_peafowl" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
+                            <span> <i class="fab fa-github"></i><a href="${profile.message}" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
                         </div>
                     </div>  
                 </div>
