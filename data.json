@@ -1,0 +1,23 @@
+{
+    "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
+    "template": {
+        "image_link": "<link-to-your-Project-image>",
+        "handle": "<your-Project-Name",
+        "livedemo": "<Your Project Link",
+        "repository": "<Your repository Link>"
+    },
+    "profiles": [{
+            "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
+            "handle": "Abha2001",
+            "livedemo": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
+            "repository":
+        },
+        {
+            "image_link": "https://avatars0.githubusercontent.com/u/31063892?s=460&u=3d25d6c59c176b164420acc86c678e893cb8732e&v=4",
+            "handle": "Akash52",
+            "livedemo": "https://en.wikipedia.org/wiki/Indian_peafowl",
+            "repository": "https://en.wikipedia.org/wiki/Indian_peafowl"
+
+        }
+    ]
+}
