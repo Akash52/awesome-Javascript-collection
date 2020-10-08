@@ -29,6 +29,12 @@
             "handle": "Calculator",
             "message": "https://trusting-ritchie-e700ea.netlify.app/",
             "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/Calculator"
+        },
+        {
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Analog-Clock/ss.PNG?raw=true",
+            "handle": "Analog Clock",
+            "message": "https://inspiring-mahavira-37928e.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/Analog-Clock"
         }
     ]
 }
