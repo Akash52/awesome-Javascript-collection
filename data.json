@@ -23,6 +23,12 @@
             "handle": "Quote Generator API",
             "message": "https://zealous-ride-28727c.netlify.app/",
             "message1": "https://github.com/Akash52/Awesome-JavaScript-Example/tree/master/08-Qoute-Generator-API"
+        },
+        {
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Calculator/ss.PNG?raw=true",
+            "handle": "Calculator",
+            "message": "https://trusting-ritchie-e700ea.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/Calculator"
         }
     ]
 }
