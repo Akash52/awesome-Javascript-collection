@@ -1,6 +1,6 @@
 $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/data.json', (data) => {
 
-    console.log(data); // this will show the info it in firebug console
+    // console.log(data); // this will show the info it in firebug console
     let profileKeys = ['handle', 'image_link', 'message', 'message1'];
     /**
      * Check if a profile has handle image_link and message properties
@@ -26,15 +26,13 @@ $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/d
     let cardParent = document.getElementById('profile-cards');
     for (let index = 0; index < profiles.length; index += 1) {
         let card = document.createElement('div');
-        // card.classList.add('col-12');
-        // card.classList.add('col-md-4');
-        // card.classList.add('p-3');
 
 
         let = profile = profiles[index];
         card.innerHTML = `
                     <div class="px-6 pt-6">
                     <div class="pt-6 text-center text-lg">
+                    
                     <span>${profile.handle}</span>
       
                         <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full mx-auto" style="max-width: 300px;" />
@@ -51,10 +49,4 @@ $.getJSON('https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/d
         `;
         cardParent.appendChild(card);
     }
-    // if (!profiles.length) {
-    //     let card = document.createElement('div');
-    //     card.classList.add('col-12');
-    //     card.innerHTML = '<h1>No ninjas encountered yet. Are you one? Feel free to add your card!</h1>';
-    //     cardParent.append(card);
-    // }
 });

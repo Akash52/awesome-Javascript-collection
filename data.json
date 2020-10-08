@@ -7,13 +7,13 @@
         "message1": "<Repository-Link>"
     },
     "profiles": [{
-            "image_link": "https://github.com/Akash52/Awesome-JavaScript-Example/blob/master/ss.PNG?raw=true",
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Movie-Seat-Booking/ss.PNG?raw=true",
             "handle": "Movie Seat Booking",
             "message": "https://focused-mccarthy-0bab72.netlify.app/",
             "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/Movie-Seat-Booking"
         },
         {
-            "image_link": "https://github.com/Akash52/Awesome-JavaScript-Example/blob/master/05-Form-Validation/ss.PNG?raw=true",
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Form-Validation/ss.PNG?raw=true",
             "handle": "Form Validation",
             "message": "https://competent-johnson-9c2090.netlify.app/",
             "message1": "https://github.com/Akash52/JS-Project-Display"
