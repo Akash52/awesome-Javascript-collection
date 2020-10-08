@@ -1,29 +1,28 @@
 {
-  "comment": " To add your own profile card, append a dictionary with your image_link, handle and message to the `profiles` array. You can use the following template dictionary to edit and append.",
-  "template": {
-    "image_link": "<link-to-your-avatar>",
-    "handle": "<your-github-handle",
-    "message": "<Live-Demo-Link>",
-    "message1": "<Repository-Link>"
-  },
-  "profiles": [
-    {
-      "image_link": "https://avatars2.githubusercontent.com/u/56684260?s=400&v=4",
-      "handle": "Abha2001",
-      "message": "https://en.wikipedia.org/wiki/Indian_peafowl",
-      "message1": "https://en.wikipedia.org/wiki/Indian_peafowl"
+    "comment": " To add your own project deatails",
+    "template": {
+        "image_link": "<link-to-your-avatar>",
+        "handle": "<your-github-handle",
+        "message": "<Live-Demo-Link>",
+        "message1": "<Repository-Link>"
     },
-    {
-      "image_link": "https://github.com/Akash52/Awesome-JavaScript-Example/blob/master/05-Form-Validation/ss.PNG?raw=true",
-      "handle": "Form Validation",
-      "message": "https://competent-johnson-9c2090.netlify.app/",
-      "message1": "https://github.com/Akash52/JS-Project-Display"
-    },
-    {
-      "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/ss.PNG?raw=true",
-      "handle": "Qoute Generator API",
-      "message": "https://zealous-ride-28727c.netlify.app/",
-      "message1": "https://github.com/Akash52/Awesome-JavaScript-Example/tree/master/08-Qoute-Generator-API"
-    }
-  ]
+    "profiles": [{
+            "image_link": "https://github.com/Akash52/Awesome-JavaScript-Example/blob/master/ss.PNG?raw=true",
+            "handle": "Movie Seat Booking",
+            "message": "https://focused-mccarthy-0bab72.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/Movie-Seat-Booking"
+        },
+        {
+            "image_link": "https://github.com/Akash52/Awesome-JavaScript-Example/blob/master/05-Form-Validation/ss.PNG?raw=true",
+            "handle": "Form Validation",
+            "message": "https://competent-johnson-9c2090.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display"
+        },
+        {
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/ss.PNG?raw=true",
+            "handle": "Qoute Generator API",
+            "message": "https://zealous-ride-28727c.netlify.app/",
+            "message1": "https://github.com/Akash52/Awesome-JavaScript-Example/tree/master/08-Qoute-Generator-API"
+        }
+    ]
 }
