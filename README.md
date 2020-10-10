@@ -4,7 +4,7 @@
 
 ## Overview
 
-- The goal of this project is make itresting JavaScript Example or Project.
+- The goal of this project is make intresting JavaScript Example or Project.
 - Feel free to contribute.
 - Make sure to follow the contribution guidelines listed below.
 
