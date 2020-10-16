@@ -20,8 +20,7 @@
 
 
 
-# Feel Free to open a issue
-
+### Feel Free to open a issue
 <ul>
   <li>Have some errors or bugs?</li>
   <li>Something is not rendering properly?</li>
@@ -29,11 +28,9 @@
 </ul>
 <h2>All feedbacks and suggestions are welcome! Everyone can contribute towards this project✨. Just <strong>FORK</strong> and make a <strong>PR</strong>.</h2>
 
-## License
+### License
 
 This project follows the [MIT License](/LICENSE).
 
-
-
-## SHOW SOME LOVE BY LEAVING A ⭐
+### SHOW SOME LOVE BY LEAVING A ⭐
 
