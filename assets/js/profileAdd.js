@@ -2,7 +2,7 @@ $.getJSON(
   "https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/data.json",
   (data) => {
     // console.log(data); // this will show the info it in firebug console
-    let profileKeys = ["name", "dial_code", "code"];
+    let profileKeys = ["handle", "image_link", "message", "message1"];
     /**
      * Check if a profile has handle image_link and message properties
      */
@@ -32,13 +32,13 @@ $.getJSON(
                     <div class="px-6 pt-6">
                     <div class="pt-6 text-center text-lg">
                     
-                    <span>${profile.name}</span>
+                    <span>${profile.handle}</span>
       
                         <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full mx-auto" style="max-width: 300px;" />
                         <div class="pt-6 text-center">
                 
-                            <span>${profile.dial_code}</span>
-                            <span>${profile.code}</span>
+                            <span><i class="fas fa-eye"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
+                            <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
                         </div>
                     </div>  
                 </div>
