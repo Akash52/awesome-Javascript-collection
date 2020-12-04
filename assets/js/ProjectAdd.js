@@ -29,6 +29,7 @@ $.getJSON(
 
       let = profile = profiles[index];
       card.innerHTML = `
+      <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div class="px-6 pt-4">
                     <div class="pt-6 text-center text-lg">
                         <span></i>${profile.handle}</span>

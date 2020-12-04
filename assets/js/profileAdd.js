@@ -28,9 +28,8 @@ $.getJSON(
       let card = document.createElement('div');
 
       let profile = profiles[index];
-      card.innerHTML = `<div class="flex flex-wrap">
-    <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-      <div class="px-6">
+      card.innerHTML = `
+      <div class="px-6 pt-4">
         <img
           alt="..."
           src="${profile.image_link}"
@@ -43,8 +42,6 @@ $.getJSON(
           ${profile.message}
           </p>
         </div>
-      </div>
-    </div>
       `;
       cardParent.appendChild(card);
     }
