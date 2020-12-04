@@ -39,8 +39,6 @@ $.getJSON(
                         </div>
                     </div>  
                 </div>
-       
-
 
         `;
       cardParent.appendChild(card);
