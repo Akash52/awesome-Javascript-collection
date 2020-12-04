@@ -1,32 +1,34 @@
-$.getJSON('', (data) => {
-  // console.log(data); // this will show the info it in firebug console
-  let profileKeys = ['handle', 'image_link', 'message'];
-  /**
-   * Check if a profile has handle image_link and message properties
-   */
-  let isProfileValid = (profile) => profileKeys.every((k) => k in profile);
+$.getJSON(
+  'https://raw.githubusercontent.com/Akash52/JS-Project-Display/master/Profile.json',
+  (data) => {
+    console.log(data); // this will show the info it in firebug console
+    let profileKeys = ['handle', 'image_link', 'message'];
+    /**
+     * Check if a profile has handle image_link and message properties
+     */
+    let isProfileValid = (profile) => profileKeys.every((k) => k in profile);
 
-  /**
-   * Given an array of profiles, keep only one for handle (handle is the id of the profile)
-   */
-  let getUniqueProfiles = (profiles) =>
-    Array.from(new Set(profiles.map((p) => p.handle))).map((id) => {
-      let profile = {};
-      profileKeys.forEach((k) => {
-        profile[k] = profiles.find((p) => p.handle === id)[k];
+    /**
+     * Given an array of profiles, keep only one for handle (handle is the id of the profile)
+     */
+    let getUniqueProfiles = (profiles) =>
+      Array.from(new Set(profiles.map((p) => p.handle))).map((id) => {
+        let profile = {};
+        profileKeys.forEach((k) => {
+          profile[k] = profiles.find((p) => p.handle === id)[k];
+        });
+        return profile;
       });
-      return profile;
-    });
 
-  // get only unique and valid profiles
-  let profiles = getUniqueProfiles(data.profiles.filter(isProfileValid));
+    // get only unique and valid profiles
+    let profiles = getUniqueProfiles(data.profiles.filter(isProfileValid));
 
-  let cardParent = document.getElementById('profile-cards');
-  for (let index = 0; index < profiles.length; index += 1) {
-    let card = document.createElement('div');
+    let cardParent = document.getElementById('profile-cards');
+    for (let index = 0; index < profiles.length; index += 1) {
+      let card = document.createElement('div');
 
-    let profile = profiles[index];
-    card.innerHTML = `<div class="flex flex-wrap">
+      let profile = profiles[index];
+      card.innerHTML = `<div class="flex flex-wrap">
     <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
       <div class="px-6">
         <img
@@ -44,6 +46,7 @@ $.getJSON('', (data) => {
       </div>
     </div>
       `;
-    cardParent.appendChild(card);
+      cardParent.appendChild(card);
+    }
   }
-});
+);
