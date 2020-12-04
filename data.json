@@ -19,7 +19,7 @@
             "message1": "https://github.com/Akash52/JS-Project-Display"
         },
         {
-            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Qoute-Generator-API/ss.PNG",
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/Qoute-Generator-API/ss.PNG?raw=true",
             "handle": "Quote Generator API",
             "message": "https://zealous-ride-28727c.netlify.app/",
             "message1": "https://github.com/Akash52/Awesome-JavaScript-Example/tree/master/08-Qoute-Generator-API"
@@ -41,6 +41,12 @@
             "handle": "Drum Kit",
             "message": "https://festive-einstein-e67d62.netlify.app/",
             "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/JS-drum"
+        },
+        {
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/JS-Loan-Calculator/1.PNG?raw=true",
+            "handle": "Loan Caculator",
+            "message": "https://ecstatic-gates-f45912.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/JS-Loan-Calculator"
         }
     ]
 }
