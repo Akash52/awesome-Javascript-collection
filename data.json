@@ -65,6 +65,12 @@
             "handle": "Todo List Vanilla",
             "message": "https://condescending-kalam-9bd2c2.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Vanila_Todo"
+        },
+        {
+            "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Progress%20Bar.png?raw=true",
+            "handle": "Progress Bar",
+            "message": "https://modest-ritchie-26454e.netlify.app/",
+            "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Progress%20bar"
         }
     ]
 }
