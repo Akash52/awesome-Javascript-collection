@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="./style.css">
+    <title>TODO LIST</title>
+</head>
+<body>
+<header><h1>Ed's TODO LIST</h1></header>
+
+<form><input type="text" class="todo-input">
+<button class="todo-button" type=submit>
+    <i class="fas fa-plus-square"></i>
+</button>
+<div class="select">
+    <select name="todos" class="filter-todo">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="Uncompleted">Uncompleted</option>
+    </select>
+</div>
+</form>
+<div class="todo-container">
+<ul class="todo-list"></ul>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
