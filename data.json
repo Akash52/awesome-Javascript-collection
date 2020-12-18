@@ -77,6 +77,12 @@
             "handle": "Crack Jokes",
             "message": "https://awesome-ptolemy-f4c55d.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Jokes%20App"
+        },
+        {
+            "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Git-User-profile-Find.jpg?raw=true",
+            "handle": "Github User Finder",
+            "message": "https://naughty-payne-577c2e.netlify.app/",
+            "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Git-User-Profile-Find"
         }
     ]
 }
