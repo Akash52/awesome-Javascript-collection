@@ -83,6 +83,19 @@
             "handle": "Github User Finder",
             "message": "https://naughty-payne-577c2e.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Git-User-Profile-Find"
+        },  
+        {
+            "image_link": "https://github.com/Tejas281/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/insect.jpg?raw=true",
+            "handle": "Catch The Insect",
+            "message": "https://sleepy-jennings-b4243a.netlify.app/",
+            "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/catch%20the%20insect"
+        },
+        
+        {
+            "image_link": "https://github.com/Tejas281/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/3D%20Boxes.jpg?raw=true",
+            "handle": "3D Boxes",
+            "message": "https://admiring-albattani-56bffd.netlify.app",
+            "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/3D%20Boxes"
         }
     ]
 }
