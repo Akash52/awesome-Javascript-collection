@@ -96,6 +96,12 @@
             "handle": "3D Boxes",
             "message": "https://admiring-albattani-56bffd.netlify.app",
             "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/3D%20Boxes"
+        },
+        {
+            "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Hiiden-Search.png?raw=true",
+            "handle": "Search Bar",
+            "message": "https://eager-kepler-0980d4.netlify.app/",
+            "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Search%20Animation"
         }
     ]
 }
