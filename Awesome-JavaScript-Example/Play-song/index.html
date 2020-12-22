@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css">
+<style>
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+  
+  <body onload="startGame()">
+    <script>
+    
+ 
+    var myMusic;
+      var myMusics;
+    function startGame() {
+        myMusic = new sound("sound.m4a");
+        myMusics = new sound("musci.m4a");
+       
+    }
+ 
+    function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+        this.sound.play();
+    }
+    this.stop = function(){
+        this.sound.pause();
+    }    
+  
+}
+
+function Push() {
+   myMusic.sound.pause();
+   myMusics.sound.pause();
+}
+function Play()
+{
+  myMusic.sound.play();
+
+}
+function next(){
+  myMusics.sound.play();
+}
+</script>
+
+<div class="shadow">
+  <div class="triangle-wrapper">
+    <div class="triangle">
+      <p>Todrick</p>
+    </div>
+  </div>
+</div>
+<div class="wrap"> 
+  <button class="button" onmousedown="Play()" onmouseup="Play()" ontouchstart="moveleft()">Play</button>
+  <button  class="button" onmousedown="Push()"  ontouchstart="Push()">Push</button><br><br>
+  <button  class="button" onmousedown="next()"  ontouchstart="next()">Next</button><br><br>
+</div>
+</body>
+</html>
