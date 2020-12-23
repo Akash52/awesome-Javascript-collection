@@ -30,12 +30,12 @@ $.getJSON(
       let = profile = profiles[index]
       card.innerHTML = `
                 <div class="px-6 pt-4">
-                    <div class="pt-6 text-center text-lg">
-                        <span></i>${profile.handle}</span>
-                        <img alt="..." src='${profile.image_link}' class="shadow-2xl rounded max-w-full mx-auto " style="max-width: 300px;" />
+                    <div class=" pt-6 text-center text-lg">
+                        <span class="text-white ">${profile.handle}</span>
+                        <img alt="..." src='${profile.image_link}' class="object-cover shadow-2xl rounded max-w-full mx-auto " style="max-width: 250px;max-height:400px" />
                         <div class="pt-6 text-center">
-                            <span><i class="fas fa-eye"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
-                            <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline hover:underline text-orange-500 text-lg"> Repository</a></span>
+                            <span><i class="fas fa-globe"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
+                            <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline  text-orange-500 text-lg hover:text-red-500"> Repository</a></span>
                         </div>
                     </div>  
                 </div>
