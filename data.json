@@ -109,5 +109,18 @@
             "message": "https://nostalgic-curie-8079a5.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Library"
         }
+        ,
+        {
+            "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/play-song.png?raw=true",
+            "handle": "Play Song",
+            "message": "https://dazzling-easley-83008c.netlify.app/",
+            "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/PlaySong"
+        },
+        {
+            "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/drum.png?raw=true",
+            "handle": "Drum Pad",
+            "message": "https://dazzling-hopper-11f3b5.netlify.app/",
+            "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/DrumPad"
+        }
     ]
 }
