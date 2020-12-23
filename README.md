@@ -2,7 +2,8 @@
 <img src="https://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" width="350"/>
 </p>
 
-[Demo](https://js-display-project.netlify.app/)
+[Netlify Demo](https://js-display-project.netlify.app/)
+[Giithub Demo](https://akash52.github.io/awesome-Javascript-collection/)
 
 ## Overview
 
