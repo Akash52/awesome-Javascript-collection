@@ -43,12 +43,6 @@
             "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/JS-drum"
         },
         {
-            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/JS-Loan-Calculator/1.PNG?raw=true",
-            "handle": "Loan Caculator",
-            "message": "https://ecstatic-gates-f45912.netlify.app/",
-            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/JS-Loan-Calculator"
-        },
-        {
             "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Text-Notes.png?raw=true",
             "handle": "Text Note",
             "message": "https://quizzical-murdock-ae211b.netlify.app/",
@@ -90,13 +84,6 @@
             "message": "https://sleepy-jennings-b4243a.netlify.app/",
             "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/catch%20the%20insect"
         },
-        
-        {
-            "image_link": "https://github.com/Tejas281/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/3D%20Boxes.jpg?raw=true",
-            "handle": "3D Boxes",
-            "message": "https://admiring-albattani-56bffd.netlify.app",
-            "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/3D%20Boxes"
-        },
         {
             "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Hiiden-Search.png?raw=true",
             "handle": "Search Bar",
@@ -121,6 +108,18 @@
             "handle": "Drum Pad",
             "message": "https://dazzling-hopper-11f3b5.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/DrumPad"
+        },
+        {
+            "image_link": "https://github.com/Akash52/JS-Project-Display/blob/master/Awesome-JavaScript-Example/JS-Loan-Calculator/1.PNG?raw=true",
+            "handle": "Loan Caculator",
+            "message": "https://ecstatic-gates-f45912.netlify.app/",
+            "message1": "https://github.com/Akash52/JS-Project-Display/tree/master/Awesome-JavaScript-Example/JS-Loan-Calculator"
+        },
+        {
+            "image_link": "https://github.com/Tejas281/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/3D%20Boxes.jpg?raw=true",
+            "handle": "3D Boxes",
+            "message": "https://admiring-albattani-56bffd.netlify.app",
+            "message1": "https://github.com/Tejas281/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/3D%20Boxes"
         }
     ]
 }
