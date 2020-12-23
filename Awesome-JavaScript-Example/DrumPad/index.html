@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+ 
+  <body onload="startGame()">
+   
+  <script>
+    
+ 
+    var myMusic;
+      var myMusics;
+    function startGame() {
+       
+        bit1 = new sound("bits.mp3");
+        bit2 = new sound("bit 3.mp3");
+        bit3 = new sound("bit 4.mp3");
+        bit4 = new sound("bit 5.mp3");      
+        bit5 = new sound("bit2.mp3");
+        bit6 = new sound("boom.mp3");
+        bit7 = new sound("car 6.mp3");
+        bit8 = new sound("part1.mp3");
+        bit9 = new sound("part2.mp3");
+        bit10 = new sound("opnhat.mp3");
+        demo1= new sound("song1.mp3");
+        demo2= new sound("song2.mp3");
+        demo3= new sound("song3.mp3");
+        demo4= new sound("sound.m4a");
+        demo =new sound("tink.wav");
+        tom = new sound("tom.wav");
+      }
+ 
+    function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+        this.sound.play();
+    }
+    this.stop = function(){
+        this.sound.pause();
+    }    
+  
+}
+function Push(){
+  demo.sound.pause();
+  demo1.sound.pause();
+  demo2.sound.pause();
+  demo3.sound.pause();
+  demo4.sound.pause();
+  bit1.sound.pause();
+  bit2.sound.pause();
+  bit3.sound.pause();
+  bit4.sound.pause();
+  bit5.sound.pause();
+  bit6.sound.pause();
+  bit7.sound.pause();
+  bit8.sound.pause();
+  bit9.sound.pause();
+  bit10.sound.pause();
+  Tom.sound.pause();
+
+}
+
+function Bittt(){
+  demo.sound.play();
+  
+}
+
+function Bit(){
+  bit1.sound.play();
+  
+}
+function Bitss(){
+  bit2.sound.play();
+  
+}
+
+function Demo(){
+  demo1.sound.play();
+}
+
+function Demos(){
+  demo2.sound.play();
+}
+
+
+function Demoss(){
+  demo4.sound.play();
+}
+
+
+function Demosss(){
+  bit3.sound.play();
+}
+
+
+function Demossss(){
+  demo3.sound.play();
+}
+
+
+function Demosssss(){
+  bit4.sound.play();
+}
+
+
+function Title(){
+  bit5.sound.play();
+}
+
+
+function Titles(){
+  bit6.sound.play();
+}
+
+
+function Titless(){
+  bit7.sound.play();
+}
+
+
+function Titlesss(){
+  bit8.sound.play();
+}
+
+
+function Vi(){
+  bit9.sound.play();
+}
+
+
+function Vie(){
+  bit10.sound.play();
+}
+
+function Tom(){
+  tom.sound.play();
+}
+
+</script>
+
+<div class="wrap"> 
+  
+  <button  class="button" onmousedown="Push()"  ontouchstart="Push()">Push</button><br><br>
+</div>
+
+<ul class="menu">
+  <li><a  onmousedown="Bitss()"  onmouseup="Bitss()">Drum</a></li>
+  <li><a onmousedown="Title()" onmouseup="Title()" >Drum</a></li>
+  <li><a onmousedown="Tom()" onmouseup="Tom()">Drum</a></li>
+  <li><a onmousedown="Titless()" onmouseup="Titless()" >Car</a></li>
+  <li><a onmousedown="Bit()" onmouseup="Bit()" >Drum</a></li>
+  <li><a  onmousedown="Titles()" onmouseup="Titles()">Boom</a></li>
+  <li><a onmousedown="Vi()" onmouseup="Vi()" >Tom</a></li>
+  <li><a onmousedown="Vie()" onmouseup="Vie()" >Bit</a></li>
+  <li><a onmousedown="Bittt()"  onmouseup="Bittt()" >Tink</a></li>
+  <li><a onmousedown="Titlesss()" onmouseup="Titlesss()" >Bom-Tom</a></li>
+   <li><a  onmousedown="Demossss()" onmouseup="Demossss()">Song</a></li>
+  <li><a onmousedown="Demosss()" onmouseup="Demosss()" >Song</a></li>
+  <li><a onmousedown="Demoss()" onmouseup="Demoss()" >Song</a></li>
+  <li><a onmousedown="Demos()" onmouseup="Demos()" >Song</a></li>
+  <li><a onmousedown="Demo()" onmouseup="Demo()" >Song</a></li>
+  <li class="bg"></li>
+</ul>
+<div class="sprite"></div>
+
+</body>
+</html>
