@@ -27,6 +27,33 @@ Display.prototype.clear = function () {
     libraryForm.reset();
 }
 
+Display.prototype.validate = function (book) {
+    if (book.name.length <= 2 || book.author.length <= 2) {
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+Display.prototype.show = function (type, dismsg) {
+    let message = document.getElementById('message');
+    if (type == 'success') {
+        boldtext = 'Success:';
+    }
+    else {
+        boldtext = "Error!"
+    }
+    message.innerHTML = `<div class="alert alert-${type} alert-dismissible fade show" role="alert">
+            <strong>${boldtext}</strong> ${dismsg}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>`;
+    setTimeout(function () {
+        message.innerHTML = '';
+    }, 2000);
+
+}
+
 let libraryForm = document.getElementById('libraryForm');
 libraryForm.addEventListener('submit', libraryFormsubmit);
 
@@ -52,7 +79,14 @@ function libraryFormsubmit(e) {
     let book = new Book(name, author, type);
 
     let display = new Display();
-    display.add(book);
-    display.clear();
+
+    if (display.validate(book)) {
+        display.add(book);
+        display.show('success', 'Your Book is successfully added');
+        display.clear();
+    }
+    else {
+        display.show('danger', 'Sorry You can not add this book');
+    }
     e.preventDefault();
 }
