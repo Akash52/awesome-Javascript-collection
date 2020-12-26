@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList App</title>
+    <link rel="icon" href="add-task.png" type="image/png" sizes="16x16">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo">Task List App</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html">Help</a></li>
+            <li><a href="badges.html">About</a></li>
+            <li><a href="collapsible.html">JavaScript</a></li>
+          </ul>
+        </div>
+      </nav>
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+            <div id="main" class="card">
+                <div class="card-content">
+                    <span class="card-title">Task List</span>
+                    <div class="row">
+                        <form id="task-form" autocomplete="off">
+                            <div class="input-field col-s12">
+                                <input type="text" name="task" id="task">
+                                <label for="task">New Task</label>
+                            </div>
+                            <input type="submit" value="Add Task" class="btn">
+                        </form>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <h5 id="task-title">Task</h5>
+                        <div class="input-field col-s12">
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter">Filter Task</label>
+                        </div>
+                        <ul class="collection"></ul>
+                            <a href="#" class="clear-task btn black">Clear Task</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
