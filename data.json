@@ -138,14 +138,14 @@
             "handle": "Github Finder",
             "message": "https://priceless-lalande-710115.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Github-Finder-master"
-        }
-        ,
+        },
         {
             "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Weight-Converter.png?raw=true",
             "handle": "Weight Converter",
             "message": "https://pedantic-mcnulty-134b70.netlify.app/",
             "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Weight-Converter"
         }
+        
     ]
     
 }
