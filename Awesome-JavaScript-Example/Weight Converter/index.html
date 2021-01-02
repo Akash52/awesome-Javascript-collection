@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+       body{
+           margin-top: 70px;
+           background: #333;
+           color: #fff;
+       }
+  
+   </style>
+    <title>Weight Converter</title>
+</head>
+<body >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="display-4 text-center mb-3">Weight 
+                    Converter</h1>
+            
+                    <form>
+                        <div class="form-group">
+                            <input id="lbsInput" type="number" class="form-control form-control-lg" placeholder="Enter Pounds ...">
+                        </div>
+                    </form>
+                    <div id="output">
+                       
+                        <div class="card bg-primary text-white mb-2">
+                            <div class="card-header">
+                                <h4>Grams:</h4>
+                                <div id="gramsOutput"></div>
+                            </div>
+                       
+                    </div>
+                   
+
+                    <div id="output">
+                        
+                        <div class="card bg-success text-white mb-2">
+                            <div class="card-header">
+                                <h4>Kilograms:</h4>
+                                <div id="kgOutput"></div>
+                            </div>
+                        
+                    </div>
+                    </div>
+
+                    <div id="output">
+                        <div class="card bg-info text-white mb-2">
+                            <div class="card-header">
+                                <h4>Ounces:</h4>
+                                <div id="ozOutput"></div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        document.getElementById('output').style.visibility = 'hidden'; 
+        document.getElementById('lbsInput').addEventListener('input', function (e){
+            document.getElementById('output').style.visibility = 'visible';
+            let lbs = e.target.value;
+           document.getElementById('gramsOutput').innerHTML = lbs/0.0022046;
+           document.getElementById('kgOutput').innerHTML = lbs/2.2046;
+           document.getElementById('ozOutput').innerHTML = lbs*16;
+            });
+
+    </script>
+</body>
+</html>
