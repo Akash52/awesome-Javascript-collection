@@ -150,6 +150,12 @@
                     "handle": "Scroll Animation",
                     "message": "https://angry-jones-222427.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Scroll%20Animation"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Dragn-Drop.png?raw=true",
+                    "handle": "Dragn Drop",
+                    "message": "https://app.netlify.com/sites/stupefied-cray-952f87/overview",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Drag-Drop"
                 }
     ]
     
