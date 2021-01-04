@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://radicalhub.com/wp-content/uploads/2018/07/javascript.jpg" width="350"/>
+<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Let-s-build-Together.png?raw=true" width="450"/>
 </p>
 
 [Netlify Demo](https://js-display-project.netlify.app/)
