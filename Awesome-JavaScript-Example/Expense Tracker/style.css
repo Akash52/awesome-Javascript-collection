@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
+:root{
+--box-shadow:0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
+    background-color: #dfe6e9;
     font-family: 'Roboto',sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,4 +18,91 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0%;
+}
+
+.container{
+    margin: 30px auto;
+    width: 350px;   
+}
+
+h1{
+    letter-spacing: 1px;
+    margin: 0;
+}
+h3{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+
+}
+h4{
+    margin: 0;
+    text-transform: uppercase;
+
+}
+
+.inc-exp-container{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.inc-exp-container >div{
+    flex: 1;
+    text-align: center;
+}
+
+.inc-exp-container >div:first-of-type{
+    border-right: 1px solid #dedede;
+}
+.money{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.money-plus{
+    color: #2ecc71;
+}
+.money-minus{
+    color: #c0392b;
+}
+
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input[type='text'],input[type='number']{
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.btn{
+background-color: #2827CC;
+color: #fff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin:10px 0 30px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 100%;
+}
+
+.btn:focus,
+.input:focus {
+  outline: none;
 }

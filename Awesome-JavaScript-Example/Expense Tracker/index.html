@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Expense Tracker" />
+    <link rel="apple-touch-icon" href="./images/logo.png" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
-    <title>My Project</title>
+    <title>Expense Tracker</title>
   </head>
   <body>
     <div class="container">
@@ -42,12 +45,21 @@
             >Amount <br />
             (negative-expense, positive-income)
           </label>
-          <input type="text" id="amount" placeholder="Enter amount..." />
+          <input type="number" id="amount" placeholder="Enter amount..." />
         </div>
         <button class="btn">Add transaction</button>
       </form>
     </div>
-
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            .register('./serviceworker.js')
+            .then((reg) => console.log('Success: ', reg.scope))
+            .catch((err) => console.log('Failure: ', err))
+        })
+      }
+    </script>
     <script src="script.js"></script>
   </body>
 </html>
