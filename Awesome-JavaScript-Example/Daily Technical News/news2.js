@@ -1,5 +1,3 @@
-let api_key = 'Qb7u915FFVgrjS33blvkA7L1DHQQOY2x';
-
 let newsaccordion = document.getElementById('newsaccordion');
 
 var xhr = new XMLHttpRequest();
@@ -37,15 +35,4 @@ xhr.onload = function () {
     }
 }
 xhr.send();
-{/* <div class="card my-2 mx-2" style="width: 18rem;">
-    <img src="${element.urlToImage}" class="card-img-top" alt="Sorry! Image is not avilable">
-        <div class="card-body">
-            <h5 class="card-title">${element.title}</h5>
-            <p class="card-text">${element.content}</p>
-        </div>
-        <div class="card-body">
-            <a href="${element.url}" class="card-link">Read More</a>
-        </div>
-                        </div>
- */}
-''
+
