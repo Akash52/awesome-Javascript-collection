@@ -164,10 +164,17 @@
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Daily%20Technical%20News"
                 },
                 {
-                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Gun.jpg?raw=true",
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Gun.JPG?raw=true",
                     "handle": "Awesome 3D",
                     "message": "https://priceless-visvesvaraya-b2b0d0.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Awesome-3D"
+                },
+                
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Animation.JPG?raw=true",
+                    "handle": "Video Animation",
+                    "message": "https://vigilant-swartz-2d8794.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Video_Animation"
                 }
     ]
     
