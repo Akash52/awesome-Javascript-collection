@@ -4,8 +4,8 @@
 | N0.|              Name             |                                  
 |----|-------------------------------|
 | 1  |  [Movie Seat Booking](https://focused-mccarthy-0bab72.netlify.app/)               
-| 2  |  [Form Validation](https://focused-mccarthy-0bab72.netlify.app/)               
-| 3  |  [Quote Generator API](https://focused-mccarthy-0bab72.netlify.app/) 
+| 2  |  [Form Validation](https://boring-visvesvaraya-713bbc.netlify.app/)               
+| 3  |  [Quote Generator API](https://zealous-ride-28727c.netlify.app/) 
 | 4  |  [Calculator](https://focused-mccarthy-0bab72.netlify.app/) 
 | 5  |  [Movie Seat Booking](https://focused-mccarthy-0bab72.netlify.app/) 
 | 6  | [Analog Clock](https://focused-mccarthy-0bab72.netlify.app/) 
