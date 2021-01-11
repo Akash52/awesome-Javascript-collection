@@ -6,7 +6,7 @@
 | 1  |  [Movie Seat Booking](https://focused-mccarthy-0bab72.netlify.app/)               
 | 2  |  [Form Validation](https://boring-visvesvaraya-713bbc.netlify.app/)               
 | 3  |  [Quote Generator API](https://zealous-ride-28727c.netlify.app/) 
-| 4  |  [Calculator](ttps://trusting-ritchie-e700ea.netlify.app/) 
+| 4  |  [Calculator](https://trusting-ritchie-e700ea.netlify.app/) 
 | 5  |  [Movie Seat Booking](https://focused-mccarthy-0bab72.netlify.app/) 
 | 6  | [Analog Clock](https://inspiring-mahavira-37928e.netlify.app/) 
 | 7  | [Drum Kit](https://festive-einstein-e67d62.netlify.app/) 
