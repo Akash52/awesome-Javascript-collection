@@ -175,7 +175,14 @@
                     "handle": "Video Animation",
                     "message": "https://vigilant-swartz-2d8794.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Video_Animation"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/writing.jpg?raw=true",
+                    "handle": "Typing Effect",
+                    "message": "https://inspiring-einstein-2c9201.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/writing-effect"
                 }
+                
     ]
     
 }
