@@ -32,6 +32,9 @@
 | 27 | [Technical News App](https://suspicious-jones-8fd7ed.netlify.app/)
 | 28 | [Awesome 3D](https://priceless-visvesvaraya-b2b0d0.netlify.app/)
 | 29 | [Video Animation](https://vigilant-swartz-2d8794.netlify.app/)
+| 30 | [Typing Effect](https://inspiring-einstein-2c9201.netlify.app/)
+
+
 
 
 ## So many Project Reference from Great Youtubers :
