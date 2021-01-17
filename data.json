@@ -180,6 +180,12 @@
                     "handle": "Typing Effect",
                     "message": "https://inspiring-einstein-2c9201.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Writing-effect"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Text.png?raw=true",
+                    "handle": "Text Effect",
+                    "message": "https://inspiring-einstein-2c9201.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Text-Effect"
                 }
                 
     ]
