@@ -33,6 +33,7 @@
 | 28 | [Awesome 3D](https://priceless-visvesvaraya-b2b0d0.netlify.app/)
 | 29 | [Video Animation](https://vigilant-swartz-2d8794.netlify.app/)
 | 30 | [Typing Effect](https://inspiring-einstein-2c9201.netlify.app/)
+| 31 | [Text Effect](https://frosty-saha-5df4b0.netlify.app/)
 
 
 
