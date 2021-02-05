@@ -23,7 +23,9 @@ $.getJSON(
                 <div class="px-6 pt-4">
                     <div class=" pt-6 text-center text-lg">
                         <span>${profile.handle}</span>
-                        <img alt="..." src='${profile.image_link}' class="rounded shadow-md md:w-1/4 px-4 mb-8" />
+                        <div class="w-6/12 sm:w-4/12 px-4">
+                        <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full h-auto align-middle border-none" style="max-width: 250px;max-height:400px" />
+                        </div>
                         <div class="pt-6 text-center">
                             <span><i class="fas fa-globe"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
                             <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline  text-orange-500 text-lg hover:text-red-500"> Repository</a></span>
