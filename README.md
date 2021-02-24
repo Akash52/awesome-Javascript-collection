@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Let-s-build-Together.png?raw=true" width="650"/>
+<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Let's%20Build%20Toge.png?raw=true" width="650"/>
 </p>
 
 [Netlify Demo](https://js-display-project.netlify.app/)
