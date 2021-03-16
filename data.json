@@ -1,8 +1,8 @@
 {
-    "comment": " To add your own project deatails",
+    "comment": " To add your project deatails",
     "template": {
-        "image_link": "<link-to-your-avatar>",
-        "handle": "<your-github-handle",
+        "image_link": "<link-to-your-projet-ss>",
+        "handle": "<project-name>",
         "message": "<Live-Demo-Link>",
         "message1": "<Repository-Link>"
     },
