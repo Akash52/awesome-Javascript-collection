@@ -206,6 +206,12 @@
                     "handle": "Dragable List",
                     "message": "https://dragablelist.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Dragable%20List"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Exchange.png?raw=true",
+                    "handle": "Exchange Rate Caculator",
+                    "message": "https://exchangeratecalcu.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Exchange%20Rate"
                 }
                 
                 

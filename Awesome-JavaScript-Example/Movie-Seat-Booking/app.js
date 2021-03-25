@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const container = document.querySelector('.container')
 
-const seats = document.querySelectorAll(".row.seat");
-console.log(seats);
+const seats = document.querySelectorAll('.row .seat')
+console.log(seats)
