@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+    />
+    <style>
+      .success,
+      .error {
+        color: wheat;
+        padding: 5px;
+        margin: 5px 0 15px 0;
+      }
+      .success {
+        background: green;
+      }
+      .error {
+        background: red;
+      }
+    </style>
+    <title>OOP Book</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Book</h1>
+      <form id="book-form">
+        <div>
+          <label for="title">Title</label>
+          <input type="text" id="title" class="u-full-width" />
+        </div>
+        <div>
+          <label for="title">Author</label>
+          <input type="text" id="title" class="u-full-width" />
+        </div>
+        <div>
+          <label for="title">ISBN</label>
+          <input type="text" id="title" class="u-full-width" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" class="u-full-width" />
+        </div>
+      </form>
+      <hr />
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
