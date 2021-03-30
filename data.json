@@ -212,6 +212,12 @@
                     "handle": "Exchange Rate Caculator",
                     "message": "https://exchangeratecalcu.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Exchange%20Rate"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Book.png?raw=true",
+                    "handle": "OOP Book List",
+                    "message": "https://dreamy-tesla-0e21c1.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/OOP%20Book%20List"
                 }
                 
                 
