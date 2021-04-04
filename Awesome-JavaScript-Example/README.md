@@ -34,11 +34,17 @@
 | 29 | [Video Animation](https://vigilant-swartz-2d8794.netlify.app/)
 | 30 | [Typing Effect](https://inspiring-einstein-2c9201.netlify.app/)
 | 31 | [Text Effect](https://frosty-saha-5df4b0.netlify.app/)
+| 32 | [Menu On Image](https://dazzling-volhard-4679bc.netlify.app/)
+| 33 | [Animal Sounds](https://amazing-poincare-883090.netlify.app/)
+| 34 | [Dragable List](https://dragablelist.netlify.app/)
+| 35 | [Exchange Rate Caculator](https://exchangeratecalcu.netlify.app/)
+| 36 | [OOP Book List](https://dreamy-tesla-0e21c1.netlify.app/)
 
 
 
 
-## So many Project Reference from Great Youtubers :
+
+## Acknowledgement & Inspiration :
 
 - Traversy Media
 - Florin Pop
