@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="/images/favicon.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <title>Find Meals</title>
+  </head>
+  <body>
+    <div class="conatainer">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Gujarati Meals 🍲</h2>
+          <blockquote>
+            Dhokla and Thepla (Typical Gujarati Food) = Majja ni Life !
+            <cite>- anonymous 😋 </cite>
+          </blockquote>
+
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder=" Enter an ingridiant OR Get all recipe click search btn !"
+              id="search-input"
+            />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <!--Feed Section-->
+        <div class="meal-result">
+          <h2 class="title">Your Search Results :</h2>
+
+          <div id="meal">
+            <!--Meal item-->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="/images/food.jpg" alt="" />
+              </div>
+              <div class="meal-name">
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+            <!--End Meal item-->
+          </div>
+        </div>
+        <!--Meal Details-->
+        <div class="meal-details">
+          <!---Recipe Close btn-->
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+
+          <!--Meal Content-->
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals Name Here</h2>
+            <p class="recipe-category">Category Name</p>
+            <div class="recipe-instruct">
+              <h3>Instruction :</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur voluptate voluptas illum! Debitis officiis nihil et
+                totam autem amet hic incidunt vitae, laboriosam dolor quisquam!
+                Perspiciatis fugiat dicta ullam voluptatibus.
+              </p>
+            </div>
+            <div class="recipe-meal-img">
+              <img src="food.jpg" alt="" />
+            </div>
+            <div class="recipe-link">
+              <a href="#" target="_blank">Watch Video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
