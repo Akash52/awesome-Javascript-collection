@@ -1,26 +1,18 @@
 const getBtn = document.getElementById('get-btn')
-const mealList = document.getElementById('meal')
-
-//console.log(recipeCloseBtn)
+const profileCards = document.getElementById('profile-cards')
 
 // Event Listener
-searchBtn.addEventListener('click', getMealList)
-mealList.addEventListener('click', getMealRecipe)
+getBtn.addEventListener('click', profileCards)
 
-recipeCloseBtn.addEventListener('click', () => {
-  mealDetailsContent.parentElement.classList.remove('showRecipe')
-})
-
-function getMealList() {
-  //console.log('Search')
-  let searchInput = document.getElementById('search-input').value.trim()
-  //console.log(searchInput.length)
-  fetch(`https://fake-server-appp.herokuapp.com/meals?q=${searchInput}`)
+function profileCards() {
+  fetch(
+    `https://raw.githubusercontent.com/Akash52/awesome-Javascript-collection/master/data.json`
+  )
     .then((response) => response.json())
     .then((data) => {
       let html = ' '
       if (data) {
-        data.forEach((meal) => {
+        data.forEach((profile) => {
           html += `
           <div class="px-6 pt-4">
           <div class=" pt-6 text-center text-lg">
@@ -38,50 +30,8 @@ function getMealList() {
         })
       } else {
         html = "Sorry, we didn't find any meal !"
-        mealList.classList.add('notFound')
+        profileCards.classList.add('notFound')
       }
-      mealList.innerHTML = html
+      profileCards.innerHTML = html
     })
-}
-
-// Get recipe of the meal
-
-function getMealRecipe(e) {
-  e.preventDefault()
-
-  if (e.target.classList.contains('recipe-btn')) {
-    let mealItem = e.target.parentElement.parentElement
-    //console.log(mealItem)
-    fetch(
-      `https://fake-server-appp.herokuapp.com/meals?id=${mealItem.dataset.id}`
-    )
-      .then((response) => response.json())
-      .then((data) => mealRecipeModal(data))
-  }
-}
-
-// Create a Modal
-
-function mealRecipeModal(meal) {
-  //console.log(meal)
-  meal = meal[0]
-
-  let html = `
-  <h2 class="recipe-title">${meal.strMeal}</h2>
-            <p class="recipe-category">${meal.strCategory}</p>
-            <div class="recipe-instruct">
-              <h3>About :</h3>
-              <p>
-                ${meal.strDetail}
-              </p>
-            </div>
-            <div class="recipe-meal-img">
-              <img src="${meal.strMealThumb}" alt="" />
-            </div>
-            <div class="recipe-link">
-              <a href="${meal.strLink}" target="_blank">Get Full Recipe</a>
-            </div>
-  `
-  mealDetailsContent.innerHTML = html
-  mealDetailsContent.parentElement.classList.add('showRecipe')
 }
