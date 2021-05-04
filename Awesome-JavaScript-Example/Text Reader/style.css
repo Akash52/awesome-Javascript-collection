@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(189, 186, 186, 0.2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+textarea {
+  height: 500px;
+  width: 1000px;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+textarea:focus {
+  background-color: #756bc2;
+  color: white;
+}
+
+.control-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-wrapper > * {
+  margin-right: 25px;
+}
+
+.control-wrapper label {
+  font-size: 25px;
+  margin-right: 8px;
+  color: rgb(70, 61, 61);
+}
+
+.control-wrapper input {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  color: white;
+  background-color: #756bc2;
+}
+
+.control-wrapper button {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #756bc2;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .textarea {
+    width: 300px;
+    height: 200px;
+  }
+}

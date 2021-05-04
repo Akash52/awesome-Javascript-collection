@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>My Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <textarea name="text" id="text" cols="50" rows="20"></textarea>
+      <div class="control-wrapper">
+        <div>
+          <label for="speed">Speed</label>
+          <input
+            type="number"
+            name="speed"
+            id="speed"
+            min="0.1"
+            max="5"
+            value="1"
+          />
+        </div>
+
+        <button class="read">Read</button>
+        <button class="pause">Pause</button>
+        <button class="stop">Stop</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
