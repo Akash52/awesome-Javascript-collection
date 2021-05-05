@@ -20,18 +20,18 @@ $.getJSON(
       let card = document.createElement('div')
       let = profile = profiles[index]
       card.innerHTML = `
-                <div class="px-6 pt-4">
-                    <div class=" pt-6 text-center text-lg">
-                        <span>${profile.handle}</span>
+      <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-2">
+                    <div class=" pt-6 text-center text-xl">
+                        <span class="text-xl hover:text-orange-500">${profile.handle}</span>
                         <div class="w-6/12 sm:w-4/12 px-4">
-                        <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full h-auto align-middle border-none" style="max-width:250px;max-height:400px" />
+                        <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full h-auto " style="max-width:250px;max-height:400px" />
                         </div>
-                        <div class="pt-6 text-center">
-                            <span><i class="fas fa-globe"></i><a href="${profile.message}"  target="_blank" class="no-underline hover:underline text-blue-500 text-lg"> Live Demo</a></span>
-                            <span> <i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline  text-orange-500 text-lg hover:text-red-500"> Repository</a></span>
+                        <div class="p-5 text-center">
+                            <span><i class="fas fa-globe"></i><a href="${profile.message}"  target="_blank" class="no-underline  text-blue-500 text-xl"> Live Demo</a></span>
+                            <span><i class="fab fa-github"></i><a href="${profile.message1}" target="_blank" class="no-underline  text-orange-500 text-xl hover:text-red-500"> Repository</a></span>
                         </div>
                     </div>  
-                </div>
+                  </div>     
         `
       cardParent.appendChild(card)
     }
