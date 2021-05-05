@@ -39,6 +39,10 @@
 | 34 | [Dragable List](https://dragablelist.netlify.app/)
 | 35 | [Exchange Rate Caculator](https://exchangeratecalcu.netlify.app/)
 | 36 | [OOP Book List](https://dreamy-tesla-0e21c1.netlify.app/)
+| 37 | [Gujarati Food Meals](https://elegant-torvalds-8656ff.netlify.app/)
+| 38 | [DOM Array Methods](https://elegant-allen-740745.netlify.app/)
+| 39 | [Rotating Navigation](https://jovial-mclean-f8e38c.netlify.app/)
+| 40 | [Blurry Loading](https://gallant-keller-160493.netlify.app/)
 
 
 
