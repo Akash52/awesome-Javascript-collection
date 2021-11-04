@@ -14,7 +14,7 @@ section {
 
 .box {
   position: relative;
-  width: 200px;
+  width: 360px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -25,12 +25,13 @@ section {
   position: relative;
   width: 200px;
   height: 200px;
+  margin: 0 -20px;
   border: 40px solid #000;
   border-radius: 50%;
 }
 .dot {
   position: absolute;
-  left: 0;
+  left: 50%;
   top: 50%;
   transform: translateY(-50%);
   width: 40px;
@@ -43,9 +44,19 @@ section {
 
 @keyframes animatedot {
   0% {
-    transform: translateY(-50%) rotate(0deg);
+    transform-origin: 100px 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  50% {
+    transform-origin: 100px 50%;
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+  50.000001% {
+    transform-origin: -60px 50%;
+    transform: translate(-50%, -50%) rotate(360deg);
   }
   100% {
-    transform: translateY(-50%) rotate(360deg);
+    transform-origin: -60px 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 }
