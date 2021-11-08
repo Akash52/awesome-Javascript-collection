@@ -242,6 +242,12 @@
                     "handle": "Blurry Loading",
                     "message": "https://gallant-keller-160493.netlify.app/",
                     "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Blur%20Loading"
+                },
+                {
+                    "image_link": "https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/animation.png?raw=true",
+                    "handle": "Animation",
+                    "message": "https://rotateanimating.netlify.app/",
+                    "message1": "https://github.com/Akash52/awesome-Javascript-collection/tree/master/Awesome-JavaScript-Example/Beautiful_Animation"
                 }
                 
                 
