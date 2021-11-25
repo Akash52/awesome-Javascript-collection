@@ -20,11 +20,11 @@ $.getJSON(
       let card = document.createElement('div')
       let = profile = profiles[index]
       card.innerHTML = `
-      <div className="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-2">
+      <div className="max-w-md py-4 px-8  shadow-lg rounded-lg my-2">
                     <div class=" pt-6 text-center text-xl">
                         <span class="text-xl hover:text-orange-500">${profile.handle}</span>
                         <div class="w-6/12 sm:w-4/12 px-4">
-                        <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full h-auto " style="max-width:250px;max-height:400px" />
+                        <img alt="..." src='${profile.image_link}' class="shadow-lg rounded max-w-full  h-auto " style="max-width:250px;max-height:400px" />
                         </div>
                         <div class="p-5 text-center">
                             <span><i class="fas fa-globe"></i><a href="${profile.message}"  target="_blank" class="no-underline  text-blue-500 text-xl"> Live Demo</a></span>
