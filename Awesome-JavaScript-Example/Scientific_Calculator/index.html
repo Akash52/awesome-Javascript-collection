@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Scientific Calc</title>
+    <link rel="stylesheet" href="style.css" id="theme">
+</head>
+
+<body>
+<div>
+    <div class="container">
+        <div class="items">
+            <input type="text" id="screen" maxlength="15" disabled>
+        <div class="function-btn">
+                <button  type="button" class="btn fnbtn degrees" onclick="degtorad()">DEG</button>
+                <button class="btn fnbtn">F-E</button>
+                <input id="sub_display" class="subDisplay form-control-sm form-control" maxlength="15" disabled>
+        </div>       
+        <div class="memory">
+            <button class="btn" id="mc">MC</button>
+            <button class="btn" id="mr" >MR</button>
+            <button class="btn">M+</button>
+            <button class="btn">M-</button>
+            <button class="btn">MS</button>
+        </div>
+        <div class="function-btn">
+          <div class="dropdown">
+            <button  type="button" class="dropdown-toggle tbtn" data-toggle="dropdown">&#x22BF; Trigonometry
+            </button>
+            <div class="dropdown-menu tbtn">
+                    <button class="btn  dropdown-item trigBtn">sin</button>
+                    <button class="btn dropdown-item trigBtn">cos</button>
+                    <button class="btn dropdown-item trigBtn">tan</button>
+                    <button class="btn dropdown-item trigBtn">asin</button>
+                    <button class="btn dropdown-item trigBtn">acos</button>
+                    <button class="btn dropdown-item trigBtn">atan</button>
+              </div>
+          </div>
+          <div class="dropdown function-ml">
+            <button  type="button" class="dropdown-toggle tbtn"  data-toggle="dropdown">ƒ Function</button>
+            <div class="dropdown-menu tbtn">
+                <button class="btn dropdown-item  trigBtn">⌊x⌋</button>
+                <button class="btn dropdown-item  trigBtn">⌈x⌉</button>
+                <button class="btn dropdown-item  trigBtn">RAN</button>
+            </div>
+          </div>
+        </div>
+        <div>
+            <button  data-toggle="dropdown" class="btn" >2<sup>nd</sup></button>
+            <div class="dropdown-menu secondFunction">
+                <button class="btn trigBtn">e<sup data-sign="epowerx">x</sup></button>
+                <button class="btn trigBtn">2<sup>x</sup></button>
+                <button class="btn trigBtn" >3<sup>x</sup></button>
+                <button class="btn trigBtn">&#x221B;x</button>
+                <button class="btn trigBtn">x<sup>3</sup></button>
+            </div>
+            <button class="btn">π</button>
+            <button class="btn">e</button>
+            <button class="btn clearBtn">C</button>
+            <button class="btn clearBtn">&#x232b;</button>
+        </div>
+        <div class="display-flex">
+            <button class="btn">x ²</button>
+            <button class="btn"><sup>1</sup>/x</button>
+            <button class="btn">|x|</button>
+            <button class="btn">exp</button>
+            <button class="btn">mod</button>
+        </div>
+        <div>
+            <button class="btn">√</button>
+            <button class="btn">(</button>
+            <button class="btn">)</button>
+            <button class="btn">n!</button>
+            <button class="btn">÷</button>
+        </div>
+        <div>
+            <button class="btn">x<small><sup>y</sup></small></button>
+            <button class="btn num-btn">7</button>
+            <button class="btn num-btn">8</button>
+            <button class="btn num-btn">9</button>
+            <button class="btn">×</button>
+        </div>
+        <div>
+            <button class="btn btn-outline-none">10<sup>x</sup></button>
+            <button class="btn num-btn">4</button>
+            <button class="btn num-btn">5</button>
+            <button class="btn num-btn">6</button>
+            <button class="btn">-</button>
+        </div>
+        <div>
+            <button class="btn">log</button>
+            <button class="btn num-btn">1</button>
+            <button class="btn num-btn">2</button>
+            <button class="btn num-btn">3</button>
+            <button class="btn">+</button>
+        </div>
+        <div>
+            <button class="btn">In</button>
+            <button class="btn">±</button>
+            <button class="btn num-btn">0</button>
+            <button class="btn">.</button>
+            <button class="btn btn-equl">=</button>    
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
