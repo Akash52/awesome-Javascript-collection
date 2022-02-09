@@ -14,7 +14,7 @@
 
 ## Content
 
-- We currently have 1 folder <b>Awesome-JavaScript-Example</b> for project.
+- currently we have 1 folder <b>Awesome-JavaScript-Example</b> for project.
 
 ### Where to upload the your project folder
 
