@@ -2,6 +2,8 @@
 <img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Let's%20Build%20Toge.png?raw=true" width="650"/>
 </p>
 
+rDX@;1Wrh.r~hP6
+
 [Netlify Demo](https://js-display-project.netlify.app/)
 [Giithub Demo](https://akash52.github.io/awesome-Javascript-collection/)
 
