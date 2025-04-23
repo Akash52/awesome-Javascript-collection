@@ -17,7 +17,7 @@ function getMealList() {
   //console.log('Search')
   let searchInput = document.getElementById('search-input').value.trim()
   //console.log(searchInput.length)
-  fetch(`https://fake-server-appp.herokuapp.com/meals?q=${searchInput}`)
+  fetch(`https://raw.githubusercontent.com/Akash52/gujarati-food-meal-fake-api/refs/heads/master/db.json`)
     .then((response) => response.json())
     .then((data) => {
       let html = ' '
