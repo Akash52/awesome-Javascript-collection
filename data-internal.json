@@ -1,0 +1,711 @@
+{
+    "comment": "Internal project showcase - automatically generated",
+    "last_updated": "2025-07-16T06:10:35.354Z",
+    "template": {
+        "image_link": "<relative-path-to-screenshot>",
+        "handle": "<project-name>",
+        "project_path": "<relative-path-to-project-folder>",
+        "description": "<project-description>",
+        "technologies": [
+            "<tech1>",
+            "<tech2>"
+        ],
+        "github_path": "<relative-github-path>"
+    },
+    "profiles": [
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgM0QgQm94ZXMKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "3D Boxes",
+            "project_path": "3D Boxes",
+            "description": "Interactive 3D box animation with CSS transforms",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/3D Boxes"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjU1NzZjO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlMTQzNTg7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY3NThhIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmNzU4YSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQW5hbG9nIENsb2NrCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Analog Clock",
+            "project_path": "Analog-Clock",
+            "description": "Analog Clock - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Analog-Clock"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA5M2ZiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkYzdmZTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZiMWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmYjFmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQW5pbWFsIFNvdW5kcwogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Animal Sounds",
+            "project_path": "Animal Sounds",
+            "description": "Interactive animal sound board",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Audio"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Animal Sounds"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZDI5OWMyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZTg1YWU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZjBiN2UwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2YwYjdlMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQXdlc29tZSAzRAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Awesome 3D",
+            "project_path": "Awesome-3D",
+            "description": "Awesome 3D - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "API"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Awesome-3D"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNzY0YmEyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjM3OGU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjOTQ2OWMwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzk0NjljMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQmVhdXRpZnVsIENsb2NrCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Beautiful Clock",
+            "project_path": "Beautiful Clock",
+            "description": "Beautiful Clock - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Beautiful Clock"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYThlZGVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM5NGQ5ZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYzZmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2M2ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQmVhdXRpZnVsIEFuaW1hdGlvbgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Beautiful Animation",
+            "project_path": "Beautiful_Animation",
+            "description": "Beautiful Animation - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Beautiful_Animation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjZhNmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjkyZWI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODRjNGZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0YzRmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQmx1ciBMb2FkaW5nCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Blur Loading",
+            "project_path": "Blur Loading",
+            "description": "Blurred background loading animation",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Blur Loading"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA5M2ZiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkYzdmZTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZiMWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmYjFmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQ2FsY3VsYXRvcgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Calculator",
+            "project_path": "Calculator",
+            "description": "Functional calculator with basic arithmetic operations",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Calculator"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY3ZWVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjZhZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODQ5Y2ZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0OWNmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQ2F0Y2ggVGhlIEluc2VjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Catch The Insect",
+            "project_path": "Catch-The-Insect",
+            "description": "Catch The Insect - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Catch-The-Insect"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYThlZGVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM5NGQ5ZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYzZmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2M2ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQ2hhdCBCb3gKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Chat Box",
+            "project_path": "Chat_Box",
+            "description": "Chat Box - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Chat_Box"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZDI5OWMyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZTg1YWU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZjBiN2UwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2YwYjdlMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQ29sb3IgU2VsZWN0b3IKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Color Selector",
+            "project_path": "Color-Selector",
+            "description": "Color Selector - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Color-Selector"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojODlmN2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NWUzZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYTdmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2E3ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgQ3JlYXRpdmUgQWdlbmN5CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Creative Agency",
+            "project_path": "Creative Agency",
+            "description": "Creative Agency - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Creative Agency"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjZhNmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjkyZWI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODRjNGZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0YzRmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRE9NIEFycmF5IE1ldGhvZHMKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "DOM Array Methods",
+            "project_path": "DOM Array Methods",
+            "description": "Demonstration of various JavaScript array methods",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Async/Await"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/DOM Array Methods"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA5M2ZiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkYzdmZTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZiMWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmYjFmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRGlnaXRhbCBDbG9jawogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Digital Clock",
+            "project_path": "Digital Clock",
+            "description": "Digital Clock - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Digital Clock"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRHJhZyBEcm9wCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Drag Drop",
+            "project_path": "Drag-Drop",
+            "description": "Drag Drop - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Drag-Drop"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmE3MDlhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlNjVjODY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY4ZWI4IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmOGViOCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRHJhZ2FibGUgTGlzdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Dragable List",
+            "project_path": "Dragable List",
+            "description": "Sortable list with drag and drop functionality",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Dragable List"
+        },
+        {
+            "image_link": "Awesome-JavaScript-Example/DrumPad/ss.PNG",
+            "handle": "DrumPad",
+            "project_path": "DrumPad",
+            "description": "Virtual drum pad with multiple sound effects",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Audio"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/DrumPad"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmVlMTQwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYWNkMmM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZmZjVlIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmZmY1ZSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRXhjaGFuZ2UgUmF0ZQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Exchange Rate",
+            "project_path": "Exchange Rate",
+            "description": "Real-time currency exchange rate calculator",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Exchange Rate"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjZhNmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjkyZWI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODRjNGZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0YzRmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRXhwYW5kaW5nIENhcmRzCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Expanding Cards",
+            "project_path": "Expanding Cards",
+            "description": "Animated expanding cards with smooth transitions",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Expanding Cards"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNzY0YmEyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjM3OGU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjOTQ2OWMwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzk0NjljMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRXhwZW5zZSBUcmFja2VyCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Expense Tracker",
+            "project_path": "Expense-Tracker",
+            "description": "Expense Tracker - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Async/Await"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Expense-Tracker"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNzY0YmEyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjM3OGU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjOTQ2OWMwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzk0NjljMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRm9vZCBSZWNpcGUgQXBwCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Food Recipe App",
+            "project_path": "Food Recipe App",
+            "description": "Food recipe finder and viewer with search functionality",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Video"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Food Recipe App"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjU1NzZjO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlMTQzNTg7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY3NThhIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmNzU4YSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRm9vZHMKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Foods",
+            "project_path": "Foods",
+            "description": "Foods - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Foods"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYThlZGVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM5NGQ5ZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYzZmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2M2ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgRm9ybSBWYWxpZGF0aW9uCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Form Validation",
+            "project_path": "Form-Validation",
+            "description": "[Demo](https://competent-johnson-9c2090.netlify.app/)",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Form-Validation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgR2l0IFVzZXIgUHJvZmlsZSBGaW5kCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Git User Profile Find",
+            "project_path": "Git-User-Profile-Find",
+            "description": "Git User Profile Find - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "API",
+                "Async/Await"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Git-User-Profile-Find"
+        },
+        {
+            "image_link": "Awesome-JavaScript-Example/Github-Finder-master/user.png",
+            "handle": "Github Finder Master",
+            "project_path": "Github-Finder-master",
+            "description": "Github Finder Master - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery",
+                "API",
+                "OOP",
+                "Async/Await"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Github-Finder-master"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgSW5maW5pdGUgU2Nyb2xsCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Infinite Scroll",
+            "project_path": "Infinite_Scroll",
+            "description": "Infinite Scroll - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Infinite_Scroll"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmVlMTQwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYWNkMmM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZmZjVlIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmZmY1ZSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgSlMgTG9hbiBDYWxjdWxhdG9yCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "JS Loan Calculator",
+            "project_path": "JS-Loan-Calculator",
+            "description": "JS Loan Calculator - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/JS-Loan-Calculator"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmE3MDlhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlNjVjODY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY4ZWI4IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmOGViOCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgSlMgRHJ1bQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "JS Drum",
+            "project_path": "JS-drum",
+            "description": "JS Drum - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Audio"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/JS-drum"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNzY0YmEyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjM3OGU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjOTQ2OWMwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzk0NjljMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgSm9rZXMgQXBwCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Jokes App",
+            "project_path": "Jokes App",
+            "description": "Random joke generator with API integration",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Jokes App"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNDNlOTdiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZmQ1Njc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNjFmZjk5IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzYxZmY5OSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgTGlicmFyeQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Library",
+            "project_path": "Library",
+            "description": "Book library management system with CRUD operations",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Library"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNDNlOTdiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZmQ1Njc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNjFmZjk5IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzYxZmY5OSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgTG9naW4gRm9ybQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Login Form",
+            "project_path": "Login Form",
+            "description": "Login Form - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Login Form"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNzY0YmEyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MjM3OGU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjOTQ2OWMwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzk0NjljMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgTWVudSBPbiBJbWFnZQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Menu On Image",
+            "project_path": "Menu On Image",
+            "description": "Interactive menu overlay on images",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Menu On Image"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYThlZGVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM5NGQ5ZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYzZmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2M2ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgTW92aWUgU2VhdCBCb29raW5nCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Movie Seat Booking",
+            "project_path": "Movie-Seat-Booking",
+            "description": "Movie Seat Booking - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Movie-Seat-Booking"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNDNlOTdiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZmQ1Njc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNjFmZjk5IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzYxZmY5OSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgT09QIEJvb2sgTGlzdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "OOP Book List",
+            "project_path": "OOP Book List",
+            "description": "Object-oriented book management system",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "OOP"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/OOP Book List"
+        },
+        {
+            "image_link": "Awesome-JavaScript-Example/PlaySong/ss.PNG",
+            "handle": "PlaySong",
+            "project_path": "PlaySong",
+            "description": "Music player with playlist functionality",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Audio",
+                "Canvas"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/PlaySong"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmVlMTQwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYWNkMmM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZmZjVlIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmZmY1ZSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgUHJvZ3Jlc3MgQmFyCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Progress Bar",
+            "project_path": "Progress-bar",
+            "description": "Progress Bar - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Progress-bar"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjU1NzZjO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlMTQzNTg7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY3NThhIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmNzU4YSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgUHJvamVjdCBTdGFydGVyCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Project Starter",
+            "project_path": "Project_Starter",
+            "description": "Project Starter - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Project_Starter"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmVlMTQwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYWNkMmM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZmZjVlIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmZmY1ZSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgUXVpemUgQXBwCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Quize App",
+            "project_path": "Quize App",
+            "description": "Quize App - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Quize App"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNDNlOTdiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZmQ1Njc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNjFmZjk5IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzYxZmY5OSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgUXVvdGUgR2VuZXJhdG9yIEFQSQogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Quote Generator API",
+            "project_path": "Quote-Generator-API",
+            "description": "Quote Generator API - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Quote-Generator-API"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgUm90YXRpbmcgTmF2aWdhdGlvbgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Rotating Navigation",
+            "project_path": "Rotating Navigation",
+            "description": "Circular rotating navigation menu",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "API"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Rotating Navigation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmE3MDlhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlNjVjODY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmY4ZWI4IiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmOGViOCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgU2NpZW50aWZpYyBDYWxjdWxhdG9yCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Scientific Calculator",
+            "project_path": "Scientific_Calculator",
+            "description": "Scientific Calculator - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Scientific_Calculator"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjZhNmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjkyZWI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODRjNGZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0YzRmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgU2Nyb2xsIEFuaW1hdGlvbgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Scroll Animation",
+            "project_path": "Scroll Animation",
+            "description": "Scroll-triggered animations and effects",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Scroll Animation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojODlmN2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NWUzZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYTdmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2E3ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgU2VhcmNoIEFuaW1hdGlvbgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Search Animation",
+            "project_path": "Search Animation",
+            "description": "Animated search bar with smooth transitions",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Search Animation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojYThlZGVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM5NGQ5ZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYzZmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2M2ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgU2ltcGxlIERyYWcgQW5kIERyb3AKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Simple Drag And Drop",
+            "project_path": "Simple Drag and Drop",
+            "description": "Simple Drag And Drop - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Simple Drag and Drop"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA5M2ZiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkYzdmZTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZiMWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmYjFmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgU3BsaXQgTGFuZGluZyBQYWdlCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Split Landing Page",
+            "project_path": "Split Landing Page",
+            "description": "Split Landing Page - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Split Landing Page"
+        },
+        {
+            "image_link": "Awesome-JavaScript-Example/TaskListApp/add-task.png",
+            "handle": "TaskListApp",
+            "project_path": "TaskListApp",
+            "description": "<p align=\"center\">",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/TaskListApp"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgVGV4dCBSZWFkZXIKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Text Reader",
+            "project_path": "Text Reader",
+            "description": "Text Reader - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Text Reader"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjZhNmZmO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjkyZWI7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODRjNGZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0YzRmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgVGV4dCBFZmZlY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Text Effect",
+            "project_path": "Text-Effect",
+            "description": "Text Effect - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Text-Effect"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNjY3ZWVhO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1MjZhZDY7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjODQ5Y2ZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzg0OWNmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgVmFuaWxhIFRvZG8KICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Vanila Todo",
+            "project_path": "Vanila_Todo",
+            "description": "Vanila Todo - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "API"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Vanila_Todo"
+        },
+        {
+            "image_link": "Awesome-JavaScript-Example/Video player/poster.png",
+            "handle": "Video Player",
+            "project_path": "Video player",
+            "description": "Video Player - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Video"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Video player"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZjA5M2ZiO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNkYzdmZTc7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZiMWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmYjFmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgVmlkZW8gQW5pbWF0aW9uCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Video Animation",
+            "project_path": "Video_Animation",
+            "description": "Video Animation - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Video"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Video_Animation"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZDI5OWMyO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNiZTg1YWU7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZjBiN2UwIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2YwYjdlMCIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgV2VhdGhlciBBcHAKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Weather App",
+            "project_path": "Weather App",
+            "description": "Weather App - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Weather App"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojNGZhY2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjk4ZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjNmRjYWZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iIzZkY2FmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgV2VpZ2h0IENvbnZlcnRlcgogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHRleHQgeD0iMjAwIiB5PSIxNjAiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIAogICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC44Ij4KICAgICAgICAgICAgICAgICAgICBKYXZhU2NyaXB0IFByb2plY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDxyZWN0IHg9IjE1MCIgeT0iMTgwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjMiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjUiIHJ4PSIyIi8+CiAgICAgICAgICAgIDwvc3ZnPgogICAgICAgIA==",
+            "handle": "Weight Converter",
+            "project_path": "Weight Converter",
+            "description": "Convert between different weight units",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Bootstrap",
+                "jQuery",
+                "API"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/Weight Converter"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojZmVlMTQwO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYWNkMmM7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjZmZmZjVlIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2ZmZmY1ZSIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgTXVzaWMgUGxheWVyCiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjE2MCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjgiPgogICAgICAgICAgICAgICAgICAgIEphdmFTY3JpcHQgUHJvamVjdAogICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgPHJlY3QgeD0iMTUwIiB5PSIxODAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMyIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuNSIgcng9IjIiLz4KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAg",
+            "handle": "Music Player",
+            "project_path": "music-player",
+            "description": "Create beautiful UI to play music stored in the \"music folder\" using the HTML5 audio API",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Audio"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/music-player"
+        },
+        {
+            "image_link": "data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgd2lkdGg9IjQwMCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICAgICAgICAgICAgICA8ZGVmcz4KICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojODlmN2ZlO3N0b3Atb3BhY2l0eToxIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM3NWUzZWE7c3RvcC1vcGFjaXR5OjEiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxyZWN0IHdpZHRoPSI0MDAiIGhlaWdodD0iMzAwIiBmaWxsPSJ1cmwoI2dyYWQpIiByeD0iOCIvPgogICAgICAgICAgICAgICAgPGNpcmNsZSBjeD0iMzUwIiBjeT0iNTAiIHI9IjMwIiBmaWxsPSIjYTdmZmZmIiBvcGFjaXR5PSIwLjMiLz4KICAgICAgICAgICAgICAgIDxjaXJjbGUgY3g9IjUwIiBjeT0iMjUwIiByPSI0MCIgZmlsbD0iI2E3ZmZmZiIgb3BhY2l0eT0iMC4yIi8+CiAgICAgICAgICAgICAgICA8dGV4dCB4PSIyMDAiIHk9IjEzMCIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgCiAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgV3JpdGluZyBFZmZlY3QKICAgICAgICAgICAgICAgIDwvdGV4dD4KICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjIwMCIgeT0iMTYwIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiAKICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOCI+CiAgICAgICAgICAgICAgICAgICAgSmF2YVNjcmlwdCBQcm9qZWN0CiAgICAgICAgICAgICAgICA8L3RleHQ+CiAgICAgICAgICAgICAgICA8cmVjdCB4PSIxNTAiIHk9IjE4MCIgd2lkdGg9IjEwMCIgaGVpZ2h0PSIzIiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC41IiByeD0iMiIvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=",
+            "handle": "Writing Effect",
+            "project_path": "writing-effect",
+            "description": "Writing Effect - JavaScript project with interactive features",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "github_path": "./Awesome-JavaScript-Example/writing-effect"
+        }
+    ]
+}

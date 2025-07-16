@@ -1,20 +1,45 @@
 {
-    "name": "JS-Display-Project",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "name": "awesome-javascript-collection",
+    "version": "2.0.0",
+    "description": "Internal JavaScript project showcase with local hosting",
+    "main": "server.js",
     "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js",
+        "serve": "python3 start-server.py",
+        "serve-alt": "python -m http.server 8080",
+        "install-deps": "npm install",
+        "generate-data": "node auto-generate-data.js",
+        "generate-watch": "node auto-generate-data.js --watch",
+        "build": "npm run generate-data",
+        "deploy": "./deploy-netlify.sh",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://akash52.github.io/JS-Project-Display"
+        "url": "git+https://github.com/Akash52/awesome-Javascript-collection.git"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "javascript",
+        "projects",
+        "showcase",
+        "portfolio",
+        "web-development",
+        "vanilla-js",
+        "local-hosting"
+    ],
+    "author": "Akash",
+    "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Akash52/JS-Project-Display/issues"
+        "url": "https://github.com/Akash52/awesome-Javascript-collection/issues"
     },
-    "homepage": "https://github.com/Akash52/JS-Project-Display#readme"
+    "homepage": "https://github.com/Akash52/awesome-Javascript-collection#readme",
+    "dependencies": {
+        "express": "^4.18.2",
+        "open": "^8.4.0"
+    },
+    "devDependencies": {},
+    "engines": {
+        "node": ">=14.0.0"
+    }
 }

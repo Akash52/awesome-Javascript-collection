@@ -1,81 +1,447 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#1f2937" />
   <meta name="Description" content="This repository contain different JavaScript Project The goal of this project is make interesting JavaScript Example or Project,
 Feel free to contribute,
 Make sure to follow the contribution guidelines listed below.">
   <meta name="Keywords" content="JavaScript">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#3b82f6',
+            secondary: '#8b5cf6',
+            accent: '#f59e0b',
+            dark: '#1f2937'
+          },
+          animation: {
+            'bounce-slow': 'bounce 2s infinite',
+            'pulse-slow': 'pulse 3s infinite',
+            'float': 'float 3s ease-in-out infinite',
+            'gradient': 'gradient 8s ease infinite'
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' }
+            },
+            gradient: {
+              '0%, 100%': { backgroundPosition: '0% 50%' },
+              '50%': { backgroundPosition: '100% 50%' }
+            }
+          }
+        }
+      }
+    }
+  </script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
     integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
     crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css">
-  <title>Let's Build Together</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/project-viewer.css">
+  <title>JavaScript Project Showcase - Let's Build Together</title>
 </head>
 
-<body class="text-white antialiased">
-  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
-    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
-      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-          href="index.html"> Let's Build
-          Together</a> 
+<body class="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white antialiased">
+  <!-- Navigation Header -->
+  <nav class="fixed top-0 z-50 w-full bg-gray-900/80 backdrop-blur-lg border-b border-gray-700/50 shadow-lg">
+    <div class="container mx-auto px-4 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo/Brand -->
+        <div class="flex items-center space-x-3">
+          <div class="text-2xl">
+            <i class="fas fa-code text-blue-400 animate-pulse"></i>
+          </div>
+          <a href="index.html" class="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent hover:from-purple-400 hover:to-blue-400 transition-all duration-300">
+            JavaScript Showcase
+          </a>
+        </div>
+        
+        <!-- Navigation Links -->
+        <div class="hidden md:flex items-center space-x-6">
+          <a href="#projects" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1">
+            <i class="fas fa-folder-open text-sm"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1">
+            <i class="fas fa-info-circle text-sm"></i>
+            <span>About</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors duration-200">
+            <i class="fas fa-moon text-yellow-400"></i>
+          </button>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-toggle" class="md:hidden p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors duration-200">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden pb-4 border-t border-gray-700/50 mt-2 pt-4">
+        <div class="flex flex-col space-y-3">
+          <a href="#projects" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-800">
+            <i class="fas fa-folder-open text-sm"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-800">
+            <i class="fas fa-info-circle text-sm"></i>
+            <span>About</span>
+          </a>
+        </div>
       </div>
     </div>
-   </nav>
+  </nav>
 
-
+  <!-- Hero Section -->
   <main>
-    <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 95vh">
-      <div class="absolute top-0 w-full h-full bg-top bg-cover" style="
-            background-image: url('https://images.unsplash.com/photo-1527427337751-fdca2f128ce5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
-          ">
-        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <!-- Animated Background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/20 to-pink-600/20"></div>
+      <div class="absolute inset-0">
+        <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-blue-400/10 rounded-full blur-3xl animate-float"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-400/10 rounded-full blur-3xl animate-float" style="animation-delay: 1s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-pink-400/10 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
       </div>
-      <div class="container relative mx-auto" data-aos="flip-up">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div>
-              <h1 class="text-white font-semibold text-5xl  text-rotate"><i
-                  class="fas fa-laptop-code text-blue-500  animate-bounce  "></i> Let's Build <i class="fas fa-users animate-pulse text-green-500"></i>
-                <span class="text-orange-500 animate-pulse text-rotater__wrap"> Together</span></h1>
-               
-              </section>
+      
+      <!-- Hero Content -->
+      <div class="relative z-10 container mx-auto px-4 text-center" data-aos="fade-up">
+        <div class="max-w-4xl mx-auto">
+          <!-- Main Title -->
+          <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+            <span class="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient bg-300%">
+              Let's Build
+            </span>
+            <br>
+            <span class="text-white flex items-center justify-center gap-4 mt-4">
+              <i class="fas fa-code text-blue-400 animate-bounce-slow"></i>
+              Together
+              <i class="fas fa-users text-green-400 animate-pulse-slow"></i>
+            </span>
+          </h1>
+          
+          <!-- Subtitle -->
+          <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+            Explore our collection of interactive JavaScript projects. From beginner-friendly examples to advanced applications, 
+            discover the power of modern web development.
+          </p>
+          
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+            <a href="#projects" class="group bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center space-x-2">
+              <i class="fas fa-rocket group-hover:animate-bounce"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#about" class="group border-2 border-white/30 hover:border-white/60 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 backdrop-blur-sm flex items-center space-x-2">
+              <i class="fas fa-info-circle group-hover:animate-pulse"></i>
+              <span>Learn More</span>
+            </a>
+          </div>
+          
+          <!-- Stats -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+              <div class="text-3xl font-bold text-blue-400 mb-2" id="project-count">50+</div>
+              <div class="text-gray-300">Projects</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+              <div class="text-3xl font-bold text-green-400 mb-2">100%</div>
+              <div class="text-gray-300">Open Source</div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+              <div class="text-3xl font-bold text-purple-400 mb-2">Live</div>
+              <div class="text-gray-300">Demos</div>
             </div>
           </div>
         </div>
       </div>
-      <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-        style="height: 70px; transform: translateZ(0px)">
-        <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-          version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-          <polygon points="2560 0 2560 100 0 100"></polygon>
-        </svg>
+      
+      <!-- Scroll Indicator -->
+      <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <a href="#projects" class="text-white/70 hover:text-white transition-colors duration-200">
+          <i class="fas fa-chevron-down text-2xl"></i>
+        </a>
       </div>
-    </div>
-    <section class="bg-black">
-      <div id="loading" class="block  w-20 h-20 m-auto border-t-2 border-b-2 border-purple-500 rounded-full animate-spin"></div>
-      <div id="profile-cards" class="flex flex-wrap justify-center" data-aos="fade-down"> </div>
-     
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-900/50 backdrop-blur-sm">
+      <div class="container mx-auto px-4">
+        <!-- Section Header -->
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-4xl md:text-5xl font-bold mb-6">
+            <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Featured Projects
+            </span>
+          </h2>
+          <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            Discover our handcrafted collection of JavaScript projects, each designed to showcase different aspects 
+            of modern web development and interactive user experiences.
+          </p>
+        </div>
+        
+        <!-- Filter Bar -->
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-6 mb-12" data-aos="fade-up" data-aos-delay="100">
+          <!-- Search Bar -->
+          <div class="relative max-w-md w-full">
+            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <i class="fas fa-search text-gray-400"></i>
+            </div>
+            <input 
+              type="text" 
+              id="project-search" 
+              placeholder="Search projects..." 
+              class="w-full pl-10 pr-4 py-3 bg-gray-800/50 border border-gray-600 rounded-full text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent backdrop-blur-sm transition-all duration-300">
+            <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
+              <button id="clear-search" class="text-gray-400 hover:text-white transition-colors duration-200 opacity-0">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          
+          <!-- Filter Buttons -->
+          <div class="flex flex-wrap justify-center gap-3">
+            <button class="filter-btn active bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md" data-filter="all">
+              <i class="fas fa-th-large mr-2"></i>All Projects
+            </button>
+            <button class="filter-btn bg-gray-700 hover:bg-blue-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md" data-filter="interactive">
+              <i class="fas fa-mouse-pointer mr-2"></i>Interactive
+            </button>
+            <button class="filter-btn bg-gray-700 hover:bg-blue-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md" data-filter="animation">
+              <i class="fas fa-magic mr-2"></i>Animation
+            </button>
+            <button class="filter-btn bg-gray-700 hover:bg-blue-600 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md" data-filter="utility">
+              <i class="fas fa-tools mr-2"></i>Utility
+            </button>
+          </div>
+        </div>
+        
+        <!-- Loading Spinner -->
+        <div id="loading" class="flex justify-center items-center py-20">
+          <div class="relative">
+            <div class="w-16 h-16 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+            <div class="absolute inset-0 w-16 h-16 border-4 border-transparent border-t-purple-600 rounded-full animate-spin" style="animation-direction: reverse; animation-duration: 1.5s;"></div>
+          </div>
+        </div>
+        
+        <!-- Project Grid -->
+        <div id="profile-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8" data-aos="fade-up" data-aos-delay="200">
+          <!-- Projects will be dynamically loaded here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gradient-to-br from-gray-800 to-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+          <h2 class="text-4xl md:text-5xl font-bold mb-8">
+            <span class="bg-gradient-to-r from-green-400 to-blue-400 bg-clip-text text-transparent">
+              About This Collection
+            </span>
+          </h2>
+          <p class="text-xl text-gray-300 leading-relaxed mb-8">
+            This repository contains a curated collection of JavaScript projects designed to help developers learn, 
+            practice, and showcase their skills. Each project demonstrates different aspects of web development, 
+            from basic DOM manipulation to advanced animations and interactive features.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20" data-aos="fade-right">
+              <i class="fas fa-lightbulb text-4xl text-yellow-400 mb-4"></i>
+              <h3 class="text-2xl font-bold mb-4">Learn by Example</h3>
+              <p class="text-gray-300">Each project includes clean, well-commented code that demonstrates best practices and modern JavaScript techniques.</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20" data-aos="fade-left">
+              <i class="fas fa-code-branch text-4xl text-green-400 mb-4"></i>
+              <h3 class="text-2xl font-bold mb-4">Open Source</h3>
+              <p class="text-gray-300">All projects are open source and available for modification, learning, and contribution by the community.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  
-  <!-- <script src="assets/js/script.js"></script> -->
-  <script src="assets/js/ProjectAdd.js"></script>
+  <!-- Footer -->
+  <footer class="bg-gray-900 border-t border-gray-700">
+    <div class="container mx-auto px-4 py-12">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <!-- About Section -->
+        <div class="text-center md:text-left">
+          <h3 class="text-xl font-bold text-white mb-4 flex items-center justify-center md:justify-start">
+            <i class="fas fa-code text-blue-400 mr-2"></i>
+            JavaScript Showcase
+          </h3>
+          <p class="text-gray-400 leading-relaxed">
+            A curated collection of interactive JavaScript projects designed to inspire, educate, and demonstrate modern web development techniques.
+          </p>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="text-center">
+          <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+          <div class="space-y-2">
+            <a href="#projects" class="block text-gray-400 hover:text-blue-400 transition-colors duration-200">
+              <i class="fas fa-folder-open mr-2"></i>Browse Projects
+            </a>
+            <a href="#about" class="block text-gray-400 hover:text-blue-400 transition-colors duration-200">
+              <i class="fas fa-info-circle mr-2"></i>About Us
+            </a>
+            <a href="https://github.com" target="_blank" class="block text-gray-400 hover:text-blue-400 transition-colors duration-200">
+              <i class="fab fa-github mr-2"></i>GitHub Repository
+            </a>
+          </div>
+        </div>
+        
+        <!-- Technologies -->
+        <div class="text-center md:text-right">
+          <h3 class="text-xl font-bold text-white mb-4">Built With</h3>
+          <div class="flex flex-wrap justify-center md:justify-end gap-2">
+            <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm border border-orange-500/30">HTML5</span>
+            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm border border-blue-500/30">CSS3</span>
+            <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-sm border border-yellow-500/30">JavaScript</span>
+            <span class="bg-cyan-500/20 text-cyan-300 px-3 py-1 rounded-full text-sm border border-cyan-500/30">Tailwind CSS</span>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Section -->
+      <div class="text-center pt-8 border-t border-gray-700">
+        <p class="text-gray-400 mb-2">
+          Made with <i class="fas fa-heart text-red-500 animate-pulse"></i> for the JavaScript community
+        </p>
+        <p class="text-gray-500">
+          © 2025 JavaScript Project Showcase. All rights reserved. | 
+          <span class="text-blue-400">Open Source</span> | 
+          <span class="text-green-400">Free to Use</span>
+        </p>
+      </div>
+    </div>
+  </footer>
 
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 opacity-0 pointer-events-none z-40">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/projectViewer.js"></script>
+  <script src="assets/js/ProjectAdd.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
     integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
     crossorigin="anonymous"></script>
+  
   <script>
+    // Initialize AOS
     AOS.init({
-      delay: 200,
-      duration: 1200,
-      once: false,
-    })
+      delay: 100,
+      duration: 800,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+      const mobileMenu = document.getElementById('mobile-menu');
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Filter functionality for projects
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const searchInput = document.getElementById('project-search');
+      const clearSearchBtn = document.getElementById('clear-search');
+      
+      // Filter button functionality
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Update active button
+          filterButtons.forEach(btn => {
+            btn.classList.remove('active', 'bg-blue-600');
+            btn.classList.add('bg-gray-700');
+          });
+          this.classList.add('active', 'bg-blue-600');
+          this.classList.remove('bg-gray-700');
+          
+          // Clear search when filtering
+          searchInput.value = '';
+          clearSearchBtn.style.opacity = '0';
+          
+          // Filter logic will be handled by the project manager
+          const filter = this.getAttribute('data-filter');
+          if (window.projectManager && window.projectManager.filterProjects) {
+            window.projectManager.filterProjects(filter);
+          }
+        });
+      });
+
+      // Search functionality
+      if (searchInput) {
+        searchInput.addEventListener('input', function(e) {
+          const query = e.target.value;
+          
+          // Show/hide clear button
+          clearSearchBtn.style.opacity = query.length > 0 ? '1' : '0';
+          
+          if (query.length === 0) {
+            // Reset to current filter when search is cleared
+            const activeFilter = document.querySelector('.filter-btn.active');
+            const filter = activeFilter ? activeFilter.getAttribute('data-filter') : 'all';
+            if (window.projectManager && window.projectManager.filterProjects) {
+              window.projectManager.filterProjects(filter);
+            }
+          } else {
+            // Search projects
+            if (window.projectManager && window.projectManager.searchProjects) {
+              window.projectManager.searchProjects(query);
+            }
+          }
+        });
+
+        // Clear search button
+        clearSearchBtn.addEventListener('click', function() {
+          searchInput.value = '';
+          searchInput.dispatchEvent(new Event('input'));
+          searchInput.focus();
+        });
+      }
+    });
+
+    // Dynamic project count update
+    document.addEventListener('DOMContentLoaded', function() {
+      // This will be updated when projects load
+      setTimeout(() => {
+        const projectCards = document.querySelectorAll('#profile-cards .project-card-wrapper');
+        const countElement = document.getElementById('project-count');
+        if (countElement && projectCards.length > 0) {
+          countElement.textContent = projectCards.length + '+';
+        }
+      }, 2000);
+    });
   </script>
 </body>
 
