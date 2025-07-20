@@ -36,6 +36,10 @@ class InternalProjectManager {
     } finally {
       setTimeout(() => {
         $('#loading').fadeOut(300)
+        // Initialize filters after projects are loaded
+        if (typeof initializeFilters === 'function') {
+          initializeFilters();
+        }
       }, 1000)
     }
   }
@@ -342,11 +346,25 @@ const projectManager = new InternalProjectManager()
 jQuery(function ($) {
   projectManager.loadProjects()
   
+  // Initialize filters after a short delay to ensure DOM is ready
+  setTimeout(() => {
+    if (typeof initializeFilters === 'function') {
+      initializeFilters();
+    }
+  }, 500);
+  
   // Add search functionality if search input exists
   const searchInput = document.getElementById('project-search')
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       const query = e.target.value
+      const clearBtn = document.getElementById('clear-search')
+      
+      // Show/hide clear button
+      if (clearBtn) {
+        clearBtn.style.opacity = query.length > 0 ? '1' : '0'
+      }
+      
       if (query.length === 0) {
         projectManager.filterProjects(projectManager.currentFilter)
       } else {

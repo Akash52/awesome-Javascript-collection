@@ -67,14 +67,18 @@ Make sure to follow the contribution guidelines listed below.">
         
         <!-- Navigation Links -->
         <div class="hidden md:flex items-center space-x-6">
-          <a href="#projects" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1">
+          <!-- <a href="#projects" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1">
             <i class="fas fa-folder-open text-sm"></i>
             <span>Projects</span>
           </a>
           <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1">
             <i class="fas fa-info-circle text-sm"></i>
             <span>About</span>
-          </a>
+          </a> -->
+          <button id="support-btn" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-1 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 px-3 py-2 rounded-lg">
+            <i class="fas fa-coffee text-sm"></i>
+            <span>Support</span>
+          </button>
           <button id="theme-toggle" class="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors duration-200">
             <i class="fas fa-moon text-yellow-400"></i>
           </button>
@@ -97,6 +101,10 @@ Make sure to follow the contribution guidelines listed below.">
             <i class="fas fa-info-circle text-sm"></i>
             <span>About</span>
           </a>
+          <button id="support-btn-mobile" class="text-gray-300 hover:text-white transition-colors duration-200 flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-800 bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600">
+            <i class="fas fa-coffee text-sm"></i>
+            <span>Support Project</span>
+          </button>
         </div>
       </div>
     </div>
@@ -287,7 +295,7 @@ Make sure to follow the contribution guidelines listed below.">
         </div>
         
         <!-- Quick Links -->
-        <div class="text-center">
+        <div>
           <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
           <div class="space-y-2">
             <a href="#projects" class="block text-gray-400 hover:text-blue-400 transition-colors duration-200">
@@ -314,6 +322,28 @@ Make sure to follow the contribution guidelines listed below.">
         </div>
       </div>
       
+      <!-- Support Section -->
+      <div class="text-center py-8 border-t border-b border-gray-700">
+        <h3 class="text-xl font-bold text-white mb-4 flex items-center justify-center">
+          <i class="fas fa-heart text-red-500 mr-2 animate-pulse"></i>
+          Support This Project
+        </h3>
+        <p class="text-gray-400 mb-6 max-w-2xl mx-auto">
+          If you find this collection helpful for learning or building projects, consider supporting its development. 
+          Your support helps maintain and improve this resource for the community.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <button id="footer-support-btn" class="group bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
+            <i class="fas fa-coffee group-hover:animate-bounce"></i>
+            <span>Buy Me a Coffee</span>
+          </button>
+          <a href="https://github.com/Akash52" target="_blank" class="group bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center space-x-2">
+            <i class="fab fa-github group-hover:animate-pulse"></i>
+            <span>Star on GitHub</span>
+          </a>
+        </div>
+      </div>
+      
       <!-- Bottom Section -->
       <div class="text-center pt-8 border-t border-gray-700">
         <p class="text-gray-400 mb-2">
@@ -332,6 +362,40 @@ Make sure to follow the contribution guidelines listed below.">
   <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 opacity-0 pointer-events-none z-40">
     <i class="fas fa-chevron-up"></i>
   </button>
+
+  <!-- Buy Me a Coffee Modal -->
+  <div id="coffeeModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+    <div class="bg-white rounded-2xl p-6 w-full max-w-md shadow-xl transform transition-all">
+      <div class="flex justify-between items-center mb-4">
+        <h3 class="text-xl font-medium text-gray-800">Support This Project</h3>
+        <button id="closeCoffeeModal" class="text-gray-500 hover:text-gray-700 transition-colors duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="text-center mb-6">
+        <div class="mx-auto w-16 h-16 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center mb-4">
+          <i class="fas fa-coffee text-white text-2xl"></i>
+        </div>
+        <p class="text-gray-600 mb-4">If you find this tool helpful, consider supporting its continued development. Every cup of coffee helps!</p>
+      </div>
+      <div id="buyMeCoffeeBtn" class="space-y-3">
+        <a href="https://www.buymeacoffee.com/19it197aka6" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-4 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg transition-all duration-200 transform hover:scale-105 shadow-md">
+          <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Buy Me a Coffee
+        </a>
+        <a href="https://github.com/Akash52" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-full px-4 py-3 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-md">
+          <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          Star on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -356,6 +420,62 @@ Make sure to follow the contribution guidelines listed below.">
       mobileMenu.classList.toggle('hidden');
     });
 
+    // Buy Me a Coffee Modal functionality
+    const coffeeModal = document.getElementById('coffeeModal');
+    const supportBtn = document.getElementById('support-btn');
+    const supportBtnMobile = document.getElementById('support-btn-mobile');
+    const closeCoffeeModal = document.getElementById('closeCoffeeModal');
+
+    // Open modal function
+    function openCoffeeModal() {
+      coffeeModal.classList.remove('hidden');
+      coffeeModal.classList.add('animate-fadeIn');
+      document.body.style.overflow = 'hidden'; // Prevent scroll
+    }
+
+    // Close modal function
+    function closeCoffeeModalFunc() {
+      coffeeModal.classList.add('animate-fadeOut');
+      setTimeout(() => {
+        coffeeModal.classList.add('hidden');
+        coffeeModal.classList.remove('animate-fadeIn', 'animate-fadeOut');
+        document.body.style.overflow = 'auto'; // Restore scroll
+      }, 200);
+    }
+
+    // Event listeners for opening modal
+    if (supportBtn) {
+      supportBtn.addEventListener('click', openCoffeeModal);
+    }
+    if (supportBtnMobile) {
+      supportBtnMobile.addEventListener('click', openCoffeeModal);
+    }
+    
+    // Footer support button
+    const footerSupportBtn = document.getElementById('footer-support-btn');
+    if (footerSupportBtn) {
+      footerSupportBtn.addEventListener('click', openCoffeeModal);
+    }
+
+    // Event listeners for closing modal
+    if (closeCoffeeModal) {
+      closeCoffeeModal.addEventListener('click', closeCoffeeModalFunc);
+    }
+
+    // Close modal when clicking outside
+    coffeeModal.addEventListener('click', function(e) {
+      if (e.target === coffeeModal) {
+        closeCoffeeModalFunc();
+      }
+    });
+
+    // Close modal on ESC key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && !coffeeModal.classList.contains('hidden')) {
+        closeCoffeeModalFunc();
+      }
+    });
+
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
@@ -370,8 +490,8 @@ Make sure to follow the contribution guidelines listed below.">
       });
     });
 
-    // Filter functionality for projects
-    document.addEventListener('DOMContentLoaded', function() {
+    // Filter functionality for projects - Initialize after projectManager is loaded
+    window.initializeFilters = function() {
       const filterButtons = document.querySelectorAll('.filter-btn');
       const searchInput = document.getElementById('project-search');
       const clearSearchBtn = document.getElementById('clear-search');
@@ -388,8 +508,10 @@ Make sure to follow the contribution guidelines listed below.">
           this.classList.remove('bg-gray-700');
           
           // Clear search when filtering
-          searchInput.value = '';
-          clearSearchBtn.style.opacity = '0';
+          if (searchInput) {
+            searchInput.value = '';
+            if (clearSearchBtn) clearSearchBtn.style.opacity = '0';
+          }
           
           // Filter logic will be handled by the project manager
           const filter = this.getAttribute('data-filter');
@@ -405,7 +527,9 @@ Make sure to follow the contribution guidelines listed below.">
           const query = e.target.value;
           
           // Show/hide clear button
-          clearSearchBtn.style.opacity = query.length > 0 ? '1' : '0';
+          if (clearSearchBtn) {
+            clearSearchBtn.style.opacity = query.length > 0 ? '1' : '0';
+          }
           
           if (query.length === 0) {
             // Reset to current filter when search is cleared
@@ -423,13 +547,15 @@ Make sure to follow the contribution guidelines listed below.">
         });
 
         // Clear search button
-        clearSearchBtn.addEventListener('click', function() {
-          searchInput.value = '';
-          searchInput.dispatchEvent(new Event('input'));
-          searchInput.focus();
-        });
+        if (clearSearchBtn) {
+          clearSearchBtn.addEventListener('click', function() {
+            searchInput.value = '';
+            searchInput.dispatchEvent(new Event('input'));
+            searchInput.focus();
+          });
+        }
       }
-    });
+    }
 
     // Dynamic project count update
     document.addEventListener('DOMContentLoaded', function() {

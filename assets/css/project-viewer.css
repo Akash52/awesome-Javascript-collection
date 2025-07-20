@@ -266,45 +266,42 @@
 
 /* Filter button active state */
 .filter-btn.active {
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8) !important;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
-  transform: translateY(-1px);
+  background: linear-gradient(to right, #3b82f6, #1d4ed8) !important;
+  transform: scale(1.05);
 }
 
-/* Gradient background animation */
-@keyframes gradient {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
+/* Coffee Modal Styles */
+#coffeeModal {
+  backdrop-filter: blur(8px);
+  z-index: 9999;
 }
 
-.bg-300\% {
-  background-size: 300% 300%;
+#coffeeModal .transform {
+  animation: scaleIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  #profile-cards {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    gap: 1rem;
+#coffeeModal.animate-fadeOut .transform {
+  animation: fadeOut 0.2s ease-in;
+}
+
+/* Coffee Modal Button Hover Effects */
+#coffeeModal a:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Coffee icon animation */
+#coffeeModal .fa-coffee {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
   }
-  
-  #project-modal .bg-white {
-    margin: 1rem;
-    max-width: calc(100vw - 2rem);
-    max-height: calc(100vh - 2rem);
+  40% {
+    transform: translateY(-10px);
   }
-  
-  .project-card-wrapper .flex {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .project-card-wrapper button {
-    width: 100%;
+  80% {
+    transform: translateY(-5px);
   }
 }
